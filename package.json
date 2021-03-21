@@ -1,17 +1,40 @@
 {
-  "name": "portfolio",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.0.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.1.5",
-    "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.1.0"
-  }
+	"name": "portfolio",
+	"version": "0.0.0",
+	"description": "A portfolio page for an internship semester.",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hy-di/Portfolio.git"
+	},
+	"author": {
+		"name": "Heidi Meyer",
+		"email": "hm043@hdm-stuttgart.de"
+	},
+	"contributors": [
+		{
+			"name": "Felix Bastian",
+			"email": "fb083@hdm-stuttgart.de"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/hy-di/Portfolio/issues"
+	},
+	"homepage": "https://github.com/hy-di/Portfolio#readme",
+	"dependencies": {
+		"babel-eslint": "^10.1.0",
+		"vue": "^3.0.5"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.1.5",
+		"@vue/compiler-sfc": "^3.0.5",
+		"eslint": "^7.22.0",
+		"eslint-plugin-vue": "^7.7.0",
+		"vite": "^2.1.0"
+	}
 }
