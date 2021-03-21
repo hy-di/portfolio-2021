@@ -1,6 +1,7 @@
 <template>
 	<div class="nav-bar">
 		<Button
+			variant="icon"
 			class="hamburger-button"
 			alt="open menu"
 			@click="$emit('update:menuOpen', true)"
@@ -37,13 +38,15 @@ export default {
 	left: 0;
 	width: 100%;
 	height: var(--navbar-height);
-	padding: 8px;
+	padding: 16px;
+	pointer-events: none;
 
 	.hamburger-button {
 		display: block;
-		height: calc(100% + 16px);
-		padding: 8px;
-		margin: -8px;
+		height: calc(100% + 32px);
+		padding: 16px;
+		margin: -16px;
+		pointer-events: all;
 
 		svg {
 			height: 100%;

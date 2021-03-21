@@ -19,14 +19,14 @@ export default {
 		},
 		variant: {
 			type: String,
-			default: 'reset',
+			default: '',
 		},
 	},
 };
 </script>
 
 <style lang="postcss" scoped>
-button.reset {
+button {
 	border: none;
 	border-radius: 0;
 	padding: 0;
@@ -36,9 +36,20 @@ button.reset {
 	background: none;
 	text-decoration: none;
 	appearance: none;
-}
 
-button:hover {
-	cursor: pointer;
+	&.icon {
+		::v-deep(svg) {
+			transition: fill 200ms ease;
+			fill: currentColor;
+		}
+
+		&:hover {
+			::v-deep(svg) { fill: rgb(var(--col-hover)); }
+		}
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
 }
 </style>

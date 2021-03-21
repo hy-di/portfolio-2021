@@ -2,7 +2,7 @@
 	<NavBar v-model:menu-open="menuOpen" />
 	<NavMenu v-model:open="menuOpen" />
 	<main>
-		Content goes here.
+		<Index />
 	</main>
 </template>
 
@@ -10,11 +10,14 @@
 import NavBar from '@/components/NavBar.vue';
 import NavMenu from '@/components/NavMenu.vue';
 
+import Index from '@/pages/Index.vue';
+
 export default {
 	name: 'App',
 	components: {
 		NavBar,
 		NavMenu,
+		Index,
 	},
 	data() {
 		return {
@@ -30,7 +33,8 @@ export default {
 :root {
 	--col-background: 0, 0, 0;
 	--col-foreground: 255, 255, 255;
-	--navbar-height: 42px;
+	--col-hover: 60, 230, 75;
+	--navbar-height: 56px;
 }
 
 #app {
@@ -48,6 +52,28 @@ export default {
 		box-sizing: inherit;
 	}
 
+	*:focus {
+		outline: none;
+	}
+	*:focus-visible {
+		background-color: rgba(var(--col-foreground), 0.3);
+	}
+
+	font-size: 13px;
+	@media (min-width: 640px)  {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: calc(64em / 16);
+	}
+	h2 {
+		font-size: calc(36em / 16);
+	}
+	h3 {
+		font-size: calc(24em / 16);
+	}
+
 	svg {
 		display: block;
 	}
@@ -56,5 +82,6 @@ export default {
 
 <style lang="postcss" scoped>
 main {
+	overflow: hidden;
 }
 </style>

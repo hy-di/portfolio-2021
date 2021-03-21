@@ -7,6 +7,8 @@
 			<div class="top-row">
 				<div>DE / EN</div>
 				<Button
+					variant="icon"
+					alt="close menu"
 					class="close-button"
 					@click="close"
 				>
@@ -57,7 +59,8 @@ export default {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	width: calc(100% - 16px);
+	width: calc(100% - 32px);
+	max-width: 640px;
 	padding: 16px;
 	background-color: rgb(var(--col-background));
 	z-index: 20;
