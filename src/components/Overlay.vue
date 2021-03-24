@@ -23,10 +23,10 @@ export default {
 <style lang="postcss" scoped>
 .overlay {
 	position: fixed;
-	top: -12px;
-	left: -12px;
-	right: -12px;
-	bottom: -12px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	z-index: 10;
 
 	backdrop-filter: blur(6px);

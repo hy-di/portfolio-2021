@@ -33,7 +33,7 @@ export default {
 :root {
 	--col-background: 0, 0, 0;
 	--col-foreground: 255, 255, 255;
-	--col-hover: 60, 230, 75;
+	--col-hover: 156, 214, 139;
 	--navbar-height: 56px;
 }
 
