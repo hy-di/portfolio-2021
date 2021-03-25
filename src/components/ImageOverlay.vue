@@ -125,6 +125,7 @@ export default {
 	button {
 		padding: 16px;
 		margin: 8px 8px 0 0;
+		pointer-events: all;
 	}
 }
 .row-image {
