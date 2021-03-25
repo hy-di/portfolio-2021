@@ -2,6 +2,7 @@
 	<div
 		class="overlay"
 		:class="variant"
+		v-bind="$attrs"
 	>
 		<slot />
 	</div>
@@ -29,9 +30,13 @@ export default {
 	bottom: 0;
 	z-index: 10;
 
-	backdrop-filter: blur(6px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
-	&.dark { background-color: rgba(var(--col-background), 0.5); }
-	&.light { background-color: rgba(var(--col-foreground), 0.5); }
+	backdrop-filter: blur(6px);
+	&.dark { background-color: rgba(var(--col-background), 0.7); }
+	&.light { background-color: rgba(var(--col-foreground), 0.7); }
 }
 </style>

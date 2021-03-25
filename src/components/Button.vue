@@ -37,19 +37,26 @@ button {
 	text-decoration: none;
 	appearance: none;
 
+	&:hover {
+		cursor: pointer;
+	}
+
 	&.icon {
+		transition: color 200ms ease;
 		::v-deep(svg) {
-			transition: fill 200ms ease;
+			width: 100%;
+			height: auto;
 			fill: currentColor;
 		}
 
-		&:hover {
-			::v-deep(svg) { fill: rgb(var(--col-hover)); }
+		&:hover:not(:disabled) {
+			color: rgb(var(--col-hover));
 		}
-	}
 
-	&:hover {
-		cursor: pointer;
+		&:disabled {
+			cursor: not-allowed;
+			opacity: 0.5;
+		}
 	}
 }
 </style>

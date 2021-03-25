@@ -19,7 +19,12 @@
 			/>
 		</Project>
 	</div>
-	<ImageOverlay :image="overlayImage" @close="closeImageOverlay()" />
+	<ImageOverlay
+		:current-image="overlayImage"
+		:images="allImages"
+		@change-image="image => overlayImage = image"
+		@close="closeImageOverlay()"
+	/>
 </template>
 
 <script>
@@ -42,33 +47,38 @@ export default {
 				imageRows: [
 					[{
 						src: 'src/assets/img/placeholder.jpg',
-						description: 'Platzhalterbild',
+						description: ['Platzhalterbild'],
 					}, {
-						src: 'src/assets/img/placeholder.jpg',
-						description: 'Platzhalterbild',
+						src: 'src/assets/img/placeholder2.jpg',
+						description: ['Platzhalterbild'],
 					}],
 					[{
 						src: 'src/assets/img/placeholder.jpg',
-						description: 'Platzhalterbild',
+						description: ['Platzhalterbild', 'Zweiter Absatz'],
+					}, {
+						src: 'src/assets/img/placeholder2.jpg',
+						description: ['Platzhalterbild'],
+					}, {
+						src: 'src/assets/img/placeholder2.jpg',
+						description: ['Platzhalterbild'],
 					}, {
 						src: 'src/assets/img/placeholder.jpg',
-						description: 'Platzhalterbild',
-					}, {
-						src: 'src/assets/img/placeholder.jpg',
-						description: 'Platzhalterbild',
-					}, {
-						src: 'src/assets/img/placeholder.jpg',
-						description: 'Platzhalterbild',
+						description: ['Platzhalterbild'],
 					}],
 				],
 			}, {
 				title: 'Project 2',
 				imageRows: [[{
 					src: 'src/assets/img/placeholder.jpg',
-					description: 'Platzhalterbild',
+					description: ['Platzhalterbild'],
 				}]],
 			}],
 		};
+	},
+	computed: {
+		allImages() {
+			return this.projects.map(p => p.imageRows.map(img => img)).flat(2);
+		},
 	},
 	methods: {
 		openImageOverlay(image) {

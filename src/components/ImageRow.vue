@@ -8,7 +8,12 @@
 		>
 			<img :src="image.src">
 			<div class="hover-caption">
-				{{ image.description }}
+				<p
+					v-for="(paragraph, j) in image.description"
+					:key="j"
+				>
+					{{ paragraph }}
+				</p>
 			</div>
 		</Button>
 	</div>
@@ -59,6 +64,7 @@ export default {
 			right: 0;
 			bottom: 0;
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			background-color: rgba(var(--col-hover), 0.7);
@@ -66,13 +72,16 @@ export default {
 			text-shadow: 0 0 4px black;
 
 			opacity: 0;
-			transform: translateY(25%);
-			transition: ease 300ms;
+			transform: translateY(10%);
+			transition: ease-in 300ms;
 			transition-property: opacity, transform;
+
+			p { margin-bottom: 0 }
 		}
 		&:hover .hover-caption {
+			transition-timing-function: ease-out;
 			opacity: 1;
-			transform: translateY(0);
+			transform: none;
 		}
 	}
 }
