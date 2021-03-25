@@ -31,6 +31,9 @@ import Project from '@/components/Project.vue';
 import ImageRow from '@/components/ImageRow.vue';
 import ImageOverlay from '@/components/ImageOverlay.vue';
 
+import placeholderImg from '@/assets/img/placeholder.jpg';
+import placeholderImg2 from '@/assets/img/placeholder2.jpg';
+
 export default {
 	name: 'Index',
 	components: {
@@ -46,23 +49,23 @@ export default {
 				description: ['Einzelarbeit, cooles Projekt, etc.'],
 				imageRows: [
 					[{
-						src: 'src/assets/img/placeholder.jpg',
+						src: placeholderImg,
 						description: ['Platzhalterbild'],
 					}, {
-						src: 'src/assets/img/placeholder2.jpg',
-						description: ['Platzhalterbild'],
+						src: placeholderImg2,
+						description: ['Platzhalterbild 2'],
 					}],
 					[{
-						src: 'src/assets/img/placeholder.jpg',
+						src: placeholderImg,
 						description: ['Platzhalterbild', 'Zweiter Absatz'],
 					}, {
-						src: 'src/assets/img/placeholder2.jpg',
+						src: placeholderImg,
 						description: ['Platzhalterbild'],
 					}, {
-						src: 'src/assets/img/placeholder2.jpg',
-						description: ['Platzhalterbild'],
+						src: placeholderImg2,
+						description: ['Platzhalterbild 2'],
 					}, {
-						src: 'src/assets/img/placeholder.jpg',
+						src: placeholderImg,
 						description: ['Platzhalterbild'],
 					}],
 				],
@@ -70,7 +73,7 @@ export default {
 				title: 'Project 2',
 				description: ['Noch ein Projekt.', 'Noch ein Absatz.'],
 				imageRows: [[{
-					src: 'src/assets/img/placeholder.jpg',
+					src: placeholderImg,
 					description: ['Platzhalterbild'],
 				}]],
 			}],

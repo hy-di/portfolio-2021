@@ -40,7 +40,7 @@ export default {
 section {
 	box-sizing: content-box;
 	border-style: solid;
-	border-image-source: url('/src/assets/img/bg.png');
+	border-image-source: url('@/assets/img/bg.png');
 	border-image-slice: 128 1536;
 	border-image-outset: calc(128px + 32px) calc(1536px + 32px);
 	border-image-width: 128px 1536px;
