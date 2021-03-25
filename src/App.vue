@@ -66,12 +66,15 @@ export default {
 
 	h1 {
 		font-size: calc(64em / 16);
+		margin-top: 0;
 	}
 	h2 {
 		font-size: calc(36em / 16);
+		margin-top: 0;
 	}
 	h3 {
 		font-size: calc(24em / 16);
+		margin-top: 0;
 	}
 
 	svg {

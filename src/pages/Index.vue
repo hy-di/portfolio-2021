@@ -1,23 +1,22 @@
 <template>
-	<div style="padding: 16px">
-		<div style="height: var(--navbar-height);" />
-		<h1>This is a heading level 1</h1>
-		<h2>This is a heading level 2</h2>
-		<h3>This is a heading level 3</h3>
-		<p>Lorem Ipsum dolor sit amet.</p>
-		<h1>Projects</h1>
-		<Project
-			v-for="(project, i) in projects"
-			:key="i"
-			:title="project.title"
-		>
-			<ImageRow
-				v-for="(images, j) in project.imageRows"
-				:key="j"
-				:images="images"
-				@image-click="image => openImageOverlay(image)"
-			/>
-		</Project>
+	<div class="container">
+		<div class="projects">
+			<div style="margin-top: calc(128px + 32px);" />
+			<Project
+				v-for="(project, i) in projects"
+				:key="i"
+				v-bind="project"
+				:is-first-project="i == 0"
+				class="project"
+			>
+				<ImageRow
+					v-for="(images, j) in project.imageRows"
+					:key="j"
+					:images="images"
+					@image-click="image => openImageOverlay(image)"
+				/>
+			</Project>
+		</div>
 	</div>
 	<ImageOverlay
 		:current-image="overlayImage"
@@ -44,6 +43,7 @@ export default {
 			overlayImage: null,
 			projects: [{
 				title: 'Project 1',
+				description: ['Einzelarbeit, cooles Projekt, etc.'],
 				imageRows: [
 					[{
 						src: 'src/assets/img/placeholder.jpg',
@@ -68,6 +68,7 @@ export default {
 				],
 			}, {
 				title: 'Project 2',
+				description: ['Noch ein Projekt.', 'Noch ein Absatz.'],
 				imageRows: [[{
 					src: 'src/assets/img/placeholder.jpg',
 					description: ['Platzhalterbild'],
@@ -92,4 +93,15 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+.projects .project {
+	margin-bottom: calc(128px + 32px);
+	+ .project {
+		margin-top: calc(256px + 64px);
+	}
+}
 </style>

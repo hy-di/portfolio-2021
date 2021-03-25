@@ -7,7 +7,7 @@
 						variant="icon"
 						alt="close overlay"
 						class="close-button"
-						@click="$emit('close')"
+						@click="close"
 					>
 						<MenuCloseIcon />
 					</Button>
@@ -19,7 +19,7 @@
 							alt="view previous image"
 							:disabled="!prevImage"
 							class="prev-button"
-							@click="$emit('change-image', prevImage)"
+							@click="gotoImage(prevImage)"
 						>
 							<ArrowRightIcon style="transform: scaleX(-1)" />
 						</Button>
@@ -31,7 +31,7 @@
 							alt="view next image"
 							:disabled="!nextImage"
 							class="next-button"
-							@click="$emit('change-image', nextImage)"
+							@click="gotoImage(nextImage)"
 						>
 							<ArrowRightIcon />
 						</Button>
@@ -85,12 +85,29 @@ export default {
 			return this.getImageAtOffset(1);
 		},
 	},
+	mounted() {
+		document.addEventListener('keydown', this.onKeydown);
+	},
+	unmounted() {
+		document.removeEventListener('keydown', this.onKeydown);
+	},
 	methods: {
 		getImageAtOffset(offset) {
 			const currIndex = this.images.findIndex(img => img === this.currentImage);
 			const offsetIndex = currIndex + offset;
 			if (offsetIndex < 0 || offsetIndex > this.images.length) return null;
 			return this.images[offsetIndex];
+		},
+		onKeydown({ key }) {
+			if (key === 'Escape') this.close();
+			else if (key === 'ArrowLeft' && this.prevImage) this.gotoImage(this.prevImage);
+			else if (key === 'ArrowRight' && this.nextImage) this.gotoImage(this.nextImage);
+		},
+		close() {
+			this.$emit('close');
+		},
+		gotoImage(image) {
+			this.$emit('change-image', image);
 		},
 	},
 };
@@ -122,6 +139,7 @@ export default {
 	width: 100%;
 	justify-content: flex-end;
 	margin-bottom: auto;
+
 	button {
 		padding: 16px;
 		margin: 8px 8px 0 0;
@@ -129,21 +147,25 @@ export default {
 	}
 }
 .row-image {
+	align-items: center;
 	.img-wrapper {
 		height: 100%;
 		flex-shrink: 2;
+
 		img {
 			display: block;
 			max-width: 100%;
 			max-height: calc(80vh - 64px); /* TODO: Find a way to scale this with the caption in mind */
 		}
 	}
+
 	button {
-		padding: 16px;
-		min-width: calc(16px * 2 + 16px);
+		padding: 24px;
+		width: calc(32px + 24px * 2);
 	}
 }
 .row-caption {
 	font-weight: bold;
+	font-size: calc(18em / 16);
 }
 </style>
