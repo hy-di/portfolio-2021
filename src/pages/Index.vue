@@ -97,7 +97,7 @@ export default {
 
 <style lang="postcss" scoped>
 .container {
-	max-width: 1024px;
+	max-width: 1280px;
 	margin: 0 auto;
 	padding: 0 16px;
 }
