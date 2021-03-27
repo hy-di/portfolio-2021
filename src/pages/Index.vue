@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
+		<Intro v-bind="intro" />
 		<div class="projects">
-			<div style="margin-top: calc(128px + 32px);" />
 			<Project
 				v-for="(project, i) in projects"
 				:key="i"
@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import Intro from '@/components/Intro.vue';
 import Project from '@/components/Project.vue';
 import ImageRow from '@/components/ImageRow.vue';
 import ImageOverlay from '@/components/ImageOverlay.vue';
@@ -37,6 +38,7 @@ import placeholderImg2 from '@/assets/img/placeholder2.jpg';
 export default {
 	name: 'Index',
 	components: {
+		Intro,
 		Project,
 		ImageRow,
 		ImageOverlay,
@@ -44,6 +46,10 @@ export default {
 	data() {
 		return {
 			overlayImage: null,
+			intro: {
+				title: 'Hello, I am Heidi Meyer',
+				text: ['I am a product design student at the HdM Stuttgart.'],
+			},
 			projects: [{
 				title: 'Project 1',
 				description: ['Einzelarbeit, cooles Projekt, etc.'],
@@ -100,11 +106,5 @@ export default {
 	max-width: 1280px;
 	margin: 0 auto;
 	padding: 0 16px;
-}
-.projects .project {
-	margin-bottom: calc(128px + 32px);
-	+ .project {
-		margin-top: calc(256px + 64px);
-	}
 }
 </style>

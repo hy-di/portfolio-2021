@@ -40,6 +40,7 @@ export default {
 	height: var(--navbar-height);
 	padding: 16px;
 	pointer-events: none;
+	z-index: 10;
 
 	.hamburger-button {
 		display: block;

@@ -63,7 +63,7 @@ export default {
 	max-width: 640px;
 	padding: 16px;
 	background-color: rgb(var(--col-background));
-	z-index: 20;
+	z-index: 30;
 
 	.top-row {
 		display: flex;

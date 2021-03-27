@@ -1,6 +1,5 @@
 <template>
 	<section>
-		<div class="test" />
 		<h1 v-if="isFirstProject">
 			Projects
 		</h1>
@@ -38,15 +37,14 @@ export default {
 
 <style lang="postcss" scoped>
 section {
-	box-sizing: content-box;
-	border-style: solid;
+	margin: 128px 0 calc(256px + 64px);
 	border-image-source: url('@/assets/img/bg.png');
 	border-image-slice: 128 1536;
 	border-image-outset: calc(128px + 32px) calc(1536px + 32px);
 	border-image-width: 128px 1536px;
 	border-image-repeat: round;
 
-	@media only screen and (max-width: 1024px) {
+	@media only screen and (max-width: 1280px) {
 		border-image-width: 128px 0;
 		border-image-repeat: repeat;
 	}

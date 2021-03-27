@@ -40,7 +40,7 @@
 		"postcss": "^8.2.8",
 		"postcss-calc": "^8.0.0",
 		"postcss-nested": "^5.0.5",
-		"vite": "^2.1.0",
+		"vite": "^2.1.3",
 		"vite-svg-loader": "^1.5.1"
 	}
 }
