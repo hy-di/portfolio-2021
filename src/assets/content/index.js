@@ -9,9 +9,11 @@ import dummyProject2 from './projects/another-project.js';
 export default {
 	intro: {
 		title: 'About Me', // used in e. g. the navigation sidebar
-		headline: 'Hello,<br>I am Heidi Meyer',
+		headline: 'Hallo,<br>ich bin Heidi Meyer',
 		text: [
-			'and I am a product design student at the HdM Stuttgart.',
+			'und ich bin Produkt Design Studentin an der HdM Stuttgart im 4. Semester.',
+			'Ich arbeite derzeit neben meinem Studium als Werkstudenten bei DEKRA.', 
+			'In meiner Freizeit bin ich leidenschaftliche Pflanzenhüterin und immer für einen Grillabend in der Natur zu haben. In der Verbleibenden Zeit lebe ich mich gerne mit kreativen Heimwerker-Projekten aus.',
 		],
 	},
 	projects: {
