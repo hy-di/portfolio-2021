@@ -37,6 +37,10 @@ export default {
 	--navbar-height: 56px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 #app {
 	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;

@@ -17,9 +17,26 @@
 			</div>
 			<nav>
 				<ul>
-					<li>Entry 1</li>
-					<li>Entry 2</li>
-					<li>Entry 3</li>
+					<li>
+						<a href="#intro" @click="close">
+							{{ content.intro.title }}
+						</a>
+					</li>
+					<li>
+						<a :href="`#project-${content.projects.projects[0].id}`" @click="close">
+							{{ content.projects.title }}
+						</a>
+					</li>
+					<ul>
+						<li
+							v-for="project in content.projects.projects"
+							:key="project.id"
+						>
+							<a :href="`#project-${project.id}`" @click="close">
+								{{ project.title }}
+							</a>
+						</li>
+					</ul>
 				</ul>
 			</nav>
 		</div>
@@ -30,6 +47,8 @@
 import Button from '@/components/Button.vue';
 import MenuCloseIcon from '@/assets/svg/menu-close.svg';
 import Overlay from '@/components/Overlay.vue';
+
+import content from '@/assets/content/';
 
 export default {
 	name: 'NavMenu',
@@ -45,6 +64,11 @@ export default {
 		},
 	},
 	emits: ['update:open'],
+	data() {
+		return {
+			content,
+		};
+	},
 	methods: {
 		close() {
 			this.$emit('update:open', false);
@@ -73,6 +97,40 @@ export default {
 	.close-button {
 		margin: -16px;
 		padding: 16px;
+	}
+
+	nav {
+		padding-left: 32px;
+
+		a {
+			color: white;
+			text-decoration: none;
+			transition: color 300ms ease;
+			&:hover, &:focus-visible {
+				color: rgb(var(--col-hover));
+			}
+		}
+	}
+
+	ul {
+		padding-left: 0;
+		font-size: calc(36em / 16);
+		font-weight: bold;
+
+		li {
+			list-style-type: none;
+			margin-top: 0.5em;
+		}
+		li + li {
+			margin-top: 2em;
+		}
+
+		ul {
+			padding-left: 1em;
+			font-size: 0.75em;
+
+			li + li { margin-top: 0.25em; }
+		}
 	}
 }
 

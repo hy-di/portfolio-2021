@@ -1,10 +1,10 @@
 <template>
 	<div class="container">
-		<Intro v-bind="intro" />
+		<Intro v-bind="content.intro" />
 		<div class="projects">
 			<Project
-				v-for="(project, i) in projects"
-				:key="i"
+				v-for="(project, i) in content.projects.projects"
+				:key="project.id"
 				v-bind="project"
 				:is-first-project="i == 0"
 				class="project"
@@ -32,8 +32,7 @@ import Project from '@/components/Project.vue';
 import ImageRow from '@/components/ImageRow.vue';
 import ImageOverlay from '@/components/ImageOverlay.vue';
 
-import placeholderImg from '@/assets/img/placeholder.jpg';
-import placeholderImg2 from '@/assets/img/placeholder2.jpg';
+import content from '@/assets/content/';
 
 export default {
 	name: 'Index',
@@ -45,49 +44,13 @@ export default {
 	},
 	data() {
 		return {
+			content,
 			overlayImage: null,
-			intro: {
-				title: 'Hello, I am Heidi Meyer',
-				text: ['I am a product design student at the HdM Stuttgart.'],
-			},
-			projects: [{
-				title: 'Project 1',
-				description: ['Einzelarbeit, cooles Projekt, etc.'],
-				imageRows: [
-					[{
-						src: placeholderImg,
-						description: ['Platzhalterbild'],
-					}, {
-						src: placeholderImg2,
-						description: ['Platzhalterbild 2'],
-					}],
-					[{
-						src: placeholderImg,
-						description: ['Platzhalterbild', 'Zweiter Absatz'],
-					}, {
-						src: placeholderImg,
-						description: ['Platzhalterbild'],
-					}, {
-						src: placeholderImg2,
-						description: ['Platzhalterbild 2'],
-					}, {
-						src: placeholderImg,
-						description: ['Platzhalterbild'],
-					}],
-				],
-			}, {
-				title: 'Project 2',
-				description: ['Noch ein Projekt.', 'Noch ein Absatz.'],
-				imageRows: [[{
-					src: placeholderImg,
-					description: ['Platzhalterbild'],
-				}]],
-			}],
 		};
 	},
 	computed: {
 		allImages() {
-			return this.projects.map(p => p.imageRows.map(img => img)).flat(2);
+			return content.projects.projects.map(p => p.imageRows.map(img => img)).flat(2);
 		},
 	},
 	methods: {

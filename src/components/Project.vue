@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section :id="`project-${id}`">
 		<h1 v-if="isFirstProject">
 			Projects
 		</h1>
@@ -23,6 +23,10 @@ export default {
 			type: Boolean,
 			default: false,
 		},
+		id: {
+			type: String,
+			required: true,
+		},
 		title: {
 			type: String,
 			required: true,
@@ -37,7 +41,9 @@ export default {
 
 <style lang="postcss" scoped>
 section {
-	margin: 128px 0 calc(256px + 64px);
+	margin: 128px 0 0;
+	+ section { margin: calc(256px + 80px) 0 calc(128px + 32px); }
+
 	border-image-source: url('@/assets/img/bg.png');
 	border-image-slice: 128 1536;
 	border-image-outset: calc(128px + 32px) calc(1536px + 32px);
@@ -48,6 +54,8 @@ section {
 		border-image-width: 128px 0;
 		border-image-repeat: repeat;
 	}
+
+	scroll-margin: 32px 0 0 0;
 }
 
 .description {

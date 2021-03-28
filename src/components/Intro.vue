@@ -1,6 +1,6 @@
 <template>
-	<section>
-		<h1>{{ title }}</h1>
+	<section id="intro">
+		<h1>{{ headline }}</h1>
 		<p
 			v-for="(paragraph, i) in text"
 			:key="i"
@@ -17,7 +17,7 @@
 export default {
 	name: 'Intro',
 	props: {
-		title: {
+		headline: {
 			type: String,
 			required: true,
 		},
@@ -42,6 +42,7 @@ section {
 	position: relative;
 	margin: calc(256px + 64px) 0 calc(512px + 64px);
 	min-height: calc(100vh - 768px);
+	scroll-margin: 100vh 0 0 0;
 
 	&, .top-leaves {
 		border-image-source: url('@/assets/img/bg-intro.png');
