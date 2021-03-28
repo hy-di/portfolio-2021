@@ -1,6 +1,6 @@
 <template>
 	<section id="intro">
-		<h1>{{ headline }}</h1>
+		<h1 v-html="headline" />
 		<p
 			v-for="(paragraph, i) in text"
 			:key="i"
