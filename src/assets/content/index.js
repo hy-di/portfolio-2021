@@ -2,6 +2,7 @@ import radio from './projects/radio.js';
 import emit from './projects/emit.js';
 import dummyProject from './projects/dummy-project.js';
 import dummyProject2 from './projects/another-project.js';
+import ergo from './projects/ergo.js';
 
 export default {
 	intro: {
@@ -16,6 +17,7 @@ export default {
 		projects: [
 			radio,
 			emit,
+			ergo,
 			dummyProject,
 			dummyProject2,
 		],
