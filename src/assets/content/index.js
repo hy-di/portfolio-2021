@@ -2,6 +2,7 @@ import radio from './projects/radio.js';
 import emit from './projects/emit.js';
 import ergo from './projects/ergo.js';
 import water from './projects/water.js';
+import logo from './projects/logo.js';
 
 import dummyProject from './projects/dummy-project.js';
 import dummyProject2 from './projects/another-project.js';
@@ -23,6 +24,7 @@ export default {
 			emit,
 			ergo,
 			water,
+			logo,
 			dummyProject,
 			dummyProject2,
 		],
