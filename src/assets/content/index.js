@@ -4,9 +4,6 @@ import ergo from './projects/ergo.js';
 import water from './projects/water.js';
 import logo from './projects/logo.js';
 
-import dummyProject from './projects/dummy-project.js';
-import dummyProject2 from './projects/another-project.js';
-
 export default {
 	intro: {
 		title: 'About Me', // used in e. g. the navigation sidebar
@@ -25,8 +22,6 @@ export default {
 			ergo,
 			water,
 			logo,
-			dummyProject,
-			dummyProject2,
 		],
 	},
 };
