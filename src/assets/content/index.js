@@ -3,6 +3,7 @@ import emit from './projects/emit.js';
 import ergo from './projects/ergo.js';
 import water from './projects/water.js';
 import logo from './projects/logo.js';
+import impres from './impres.js';
 
 export default {
 	intro: {
@@ -22,6 +23,12 @@ export default {
 			ergo,
 			water,
 			logo,
+		],
+	},
+	impres: {
+		title: 'Impressum',
+		projects: [
+			impres,
 		],
 	},
 };

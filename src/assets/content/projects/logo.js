@@ -22,8 +22,7 @@ export default {
 	[{
 		src: simpleikons,
 		description: ['Vereinfachung Käfer'],
-	}], 
-	[{
+	},{
 		src: fuenfikons,
 		description: ['Icon Ideen'],
 	}],
