@@ -20,4 +20,5 @@ export default {
 		'Soweit besondere Bedingungen für einzelne Nutzungen dieser Website von den vorgenannten Paragraphen abweichen, wird an entsprechender Stelle ausdrücklich darauf hingewiesen. In diesem Falle gelten im jeweiligen Einzelfall die besonderen Nutzungsbedingungen.',
 		'Basiert auf: Impressum Vorlage von JuraForum.de',
 	],
+	imageRows: [],
 };

@@ -67,7 +67,7 @@ export default {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			background-color: rgba(var(--col-hover), 0.7);
+			background-color: rgba(var(--col-accent), 0.7);
 			font-size: calc(18em / 16);
 			text-shadow: 0 0 4px black;
 
