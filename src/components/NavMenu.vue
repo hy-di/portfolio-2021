@@ -37,6 +37,14 @@
 							</a>
 						</li>
 					</ul>
+					<li
+						v-for="section in content.sections"
+						:key="section.id"
+					>
+						<a :href="`#section-${section.id}`" @click="close">
+							{{ section.title }}
+						</a>
+					</li>
 				</ul>
 			</nav>
 		</div>

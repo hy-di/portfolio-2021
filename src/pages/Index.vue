@@ -17,6 +17,11 @@
 				/>
 			</Project>
 		</div>
+		<Section
+			v-for="section in content.sections"
+			:key="section.id"
+			v-bind="section"
+		/>
 	</div>
 	<ImageOverlay
 		:current-image="overlayImage"
@@ -29,6 +34,7 @@
 <script>
 import Intro from '@/components/Intro.vue';
 import Project from '@/components/Project.vue';
+import Section from '@/components/Section.vue';
 import ImageRow from '@/components/ImageRow.vue';
 import ImageOverlay from '@/components/ImageOverlay.vue';
 
@@ -41,6 +47,7 @@ export default {
 	components: {
 		Intro,
 		Project,
+		Section,
 		ImageRow,
 		ImageOverlay,
 	},
