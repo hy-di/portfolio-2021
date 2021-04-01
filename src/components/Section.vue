@@ -44,8 +44,8 @@ section {
 	}
 
 	@media only screen and (max-width: 1344px) and (min-width: 480px) {
-		margin-left: 48px;
-		margin-right: 48px;
+		padding-left: 48px;
+		padding-right: 48px;
 	}
 
 	scroll-margin: 32px 0 0 0;
