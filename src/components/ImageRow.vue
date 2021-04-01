@@ -54,7 +54,10 @@ export default {
 
 		img {
 			display: block;
+			object-fit: cover;
 			width: 100%;
+			height: 100%;
+			max-height: max(min(40vh, 400px), 200px);
 		}
 
 		.hover-caption {

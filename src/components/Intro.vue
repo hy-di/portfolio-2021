@@ -66,10 +66,16 @@ section {
 	@media only screen and (max-width: 1280px) {
 		border-image-width: 0 0 384px;
 		border-image-repeat: repeat;
+
 		.top-leaves {
 			border-image-width: 2096px 0 0;
 			border-image-repeat: repeat;
 		}
+	}
+
+	@media only screen and (max-width: 1344px) and (min-width: 480px) {
+		margin-left: 48px;
+		margin-right: 48px;
 	}
 }
 

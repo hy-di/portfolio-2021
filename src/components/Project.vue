@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-section {
+.project {
 	margin: 128px 0 0;
 	+ section { margin: calc(256px + 80px) 0 calc(128px + 32px); }
 
@@ -53,6 +53,11 @@ section {
 	@media only screen and (max-width: 1280px) {
 		border-image-width: 128px 0;
 		border-image-repeat: repeat;
+	}
+
+	@media only screen and (max-width: 1344px) and (min-width: 480px) {
+		padding-left: 48px;
+		padding-right: 48px;
 	}
 
 	scroll-margin: 32px 0 0 0;

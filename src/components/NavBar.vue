@@ -42,6 +42,10 @@ export default {
 	pointer-events: none;
 	z-index: 10;
 
+	@media only screen and (max-width: 480px) {
+		background-color: rgba(var(--col-background), 0.66);
+	}
+
 	.hamburger-button {
 		display: block;
 		height: calc(100% + 32px);
