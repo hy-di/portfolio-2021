@@ -79,9 +79,18 @@ export default {
 			content,
 		};
 	},
+	mounted() {
+		document.addEventListener('keydown', this.onKeydown);
+	},
+	unmounted() {
+		document.removeEventListener('keydown', this.onKeydown);
+	},
 	methods: {
 		close() {
 			this.$emit('update:open', false);
+		},
+		onKeydown({ key }) {
+			if (key === 'Escape') this.close();
 		},
 	},
 };
