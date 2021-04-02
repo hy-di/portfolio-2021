@@ -93,7 +93,7 @@ export default {
 	},
 	methods: {
 		getImageAtOffset(offset) {
-			const currIndex = this.images.findIndex(img => (img.id === this.currentImage.id));
+			const currIndex = this.images.findIndex(img => (img.src === this.currentImage.src));
 			const offsetIndex = currIndex + offset;
 			if (offsetIndex < 0 || offsetIndex > this.images.length) return null;
 			return this.images[offsetIndex];

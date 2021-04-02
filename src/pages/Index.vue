@@ -61,8 +61,7 @@ export default {
 	},
 	computed: {
 		allImages() {
-			const flat = content.value.projects.projects.map(p => p.imageRows.map(img => img)).flat(2);
-			return flat.map((img, i) => ({ ...img, id: i }));
+			return content.value.projects.projects.map(p => p.imageRows.map(img => img)).flat(2);
 		},
 	},
 	methods: {
