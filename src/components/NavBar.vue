@@ -44,6 +44,7 @@ export default {
 
 	@media only screen and (max-width: 480px) {
 		background-color: rgba(var(--col-background), 0.66);
+		backdrop-filter: blur(6px);
 	}
 
 	.hamburger-button {

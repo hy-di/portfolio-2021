@@ -40,8 +40,6 @@ import ImageOverlay from '@/components/ImageOverlay.vue';
 
 import content from '@/assets/content/';
 
-const allImages = content.projects.projects.map(p => p.imageRows.map(img => img)).flat(2);
-
 export default {
 	name: 'Index',
 	components: {
@@ -54,9 +52,14 @@ export default {
 	data() {
 		return {
 			content,
-			allImages,
 			overlayImage: null,
 		};
+	},
+	computed: {
+		allImages() {
+			const flat = content.value.projects.projects.map(p => p.imageRows.map(img => img)).flat(2);
+			return flat.map((img, i) => ({ ...img, id: i }));
+		},
 	},
 	methods: {
 		openImageOverlay(image) {

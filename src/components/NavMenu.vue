@@ -5,7 +5,7 @@
 	<transition name="shift-in-left">
 		<div v-if="open" class="nav-menu">
 			<div class="top-row">
-				<div>DE / EN</div>
+				<LanguageSwitch class="language-switch" />
 				<Button
 					variant="icon"
 					alt="close menu"
@@ -52,9 +52,10 @@
 </template>
 
 <script>
-import Button from '@/components/Button.vue';
-import MenuCloseIcon from '@/assets/svg/menu-close.svg';
 import Overlay from '@/components/Overlay.vue';
+import Button from '@/components/Button.vue';
+import LanguageSwitch from '@/components/LanguageSwitch.vue';
+import MenuCloseIcon from '@/assets/svg/menu-close.svg';
 
 import content from '@/assets/content/';
 
@@ -63,6 +64,7 @@ export default {
 	components: {
 		Overlay,
 		Button,
+		LanguageSwitch,
 		MenuCloseIcon,
 	},
 	props: {
@@ -94,6 +96,7 @@ export default {
 	width: calc(100% - 32px);
 	max-width: 640px;
 	padding: 16px;
+	padding-left: 2em;
 	background-color: rgb(var(--col-background));
 	z-index: 30;
 
@@ -108,8 +111,6 @@ export default {
 	}
 
 	nav {
-		padding-left: 32px;
-
 		a {
 			color: white;
 			text-decoration: none;
@@ -118,26 +119,26 @@ export default {
 				color: rgb(var(--col-hover));
 			}
 		}
-	}
-
-	ul {
-		padding-left: 0;
-		font-size: calc(36em / 16);
-		font-weight: bold;
-
-		li {
-			list-style-type: none;
-			margin-top: 0.5em;
-		}
-		li + li {
-			margin-top: 2em;
-		}
 
 		ul {
-			padding-left: 1em;
-			font-size: 0.75em;
+			padding-left: 0;
+			font-size: calc(36em / 16);
+			font-weight: bold;
 
-			li + li { margin-top: 0.25em; }
+			li {
+				list-style-type: none;
+				margin-top: 0.5em;
+			}
+			li + li {
+				margin-top: 2em;
+			}
+
+			ul {
+				padding-left: 1em;
+				font-size: 0.75em;
+
+				li + li { margin-top: 0.5em; }
+			}
 		}
 	}
 }

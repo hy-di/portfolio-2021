@@ -28,7 +28,10 @@ export default {
 	],
 	imageRows: [[{
 		src: sinkskizze1,
-		description: ['Wasserhahn Skizze'],
+		description: {
+			de: ['Wasserhahn Skizze'],
+			en: ['Tap Sketch'],
+		},
 	}, {
 		src: showerskizze1,
 		description: ['Duschamatur Skizze'],
@@ -39,7 +42,7 @@ export default {
 	},{
 		src: showerskizze2,
 		description: ['Duschamatur Skizze'],
-	}], 
+	}],
 	[{
 		src: tapmodel1,
 		description: ['Wasserhahn Knetmodel'],
@@ -59,7 +62,7 @@ export default {
 	},{
 		src: showerheadmodel3,
 		description: ['Duschkopf Knetmodel'],
-	}], 
+	}],
 	[{
 		src: sinkskizze3,
 		description: ['Waschbecken Skizze'],
@@ -73,7 +76,7 @@ export default {
 	}, {
 		src: sinkroom,
 		description: ['Waschbecken CAD Visualisierung'],
-	}], 
+	}],
 	[{
 		src: showerconzept,
 		description: ['Duschraum Ideeskizze'],

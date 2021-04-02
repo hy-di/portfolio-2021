@@ -1,6 +1,6 @@
 export default {
 	id: 'impres',
-	title: 'Impressum',
+	title: { de: 'Impressum', en: 'Legal Notice' },
 	text: [
 		'Heidi Meyer',
 		'Schwabstr. 90',
