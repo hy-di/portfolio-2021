@@ -1,28 +1,43 @@
 <template>
-	<NavBar v-model:menu-open="menuOpen" />
-	<NavMenu v-model:open="menuOpen" />
-	<main>
-		<Index />
-	</main>
+	<transition name="fade">
+		<LoadingSpinner v-if="loading" />
+		<div v-else>
+			<NavBar v-model:menu-open="menuOpen" />
+			<NavMenu v-model:open="menuOpen" />
+			<main>
+				<Index />
+			</main>
+		</div>
+	</transition>
 </template>
 
 <script>
+import LoadingSpinner from '@/components/LoadingSpinner.vue';
 import NavBar from '@/components/NavBar.vue';
 import NavMenu from '@/components/NavMenu.vue';
 
 import Index from '@/pages/Index.vue';
 
+import introImageSrc from '@/assets/img/bg-intro.png';
+
 export default {
 	name: 'App',
 	components: {
+		LoadingSpinner,
 		NavBar,
 		NavMenu,
 		Index,
 	},
 	data() {
 		return {
+			loading: true,
 			menuOpen: false,
 		};
+	},
+	created() {
+		const introImage = new Image();
+		introImage.onload = () => this.loading = false;
+		introImage.src = introImageSrc;
 	},
 };
 </script>
@@ -64,8 +79,13 @@ html {
 		background-color: rgba(var(--col-foreground), 0.3);
 	}
 
+	::selection {
+		color: rgb(var(--col-foreground));
+		background: rgb(var(--col-accent));
+	}
+
 	font-size: 13px;
-	@media (min-width: 640px)  {
+	@media (min-width: 640px) {
 		font-size: 16px;
 	}
 
@@ -92,4 +112,15 @@ html {
 main {
 	overflow: hidden;
 }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 400ms ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 </style>
