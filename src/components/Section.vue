@@ -1,9 +1,8 @@
 <template>
 	<section :id="`section-${id}`">
 		<h2>{{ title }}</h2>
-		<p v-for="(paragraph, i) in text" :key="i">
-			{{ paragraph }}
-		</p>
+		<!-- eslint-disable-next-line vue/no-v-html -->
+		<p v-for="(paragraph, i) in text" :key="i" v-html="paragraph" />
 		<slot />
 	</section>
 </template>

@@ -2,9 +2,9 @@ export default {
 	id: 'impres',
 	title: { de: 'Impressum', en: 'Legal Notice' },
 	text: [
-		'Heidi Meyer',
-		'Schwabstr. 90',
-		'70193 Stuttgart',
+		'Heidi Meyer<br>' +
+		'Schwabstr. 90<br>' +
+		'70193 Stuttgart<br>' +
 		'E-Mail: hm043@hdm-stuttgart.de',
 
 		'Verantwortlich für den Inhalt (gem. § 55 Abs. 2 RStV):',

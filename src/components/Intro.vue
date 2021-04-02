@@ -1,5 +1,6 @@
 <template>
 	<section id="intro">
+		<!-- eslint-disable-next-line vue/no-v-html -->
 		<h1 v-html="headline" />
 		<p
 			v-for="(paragraph, i) in text"
