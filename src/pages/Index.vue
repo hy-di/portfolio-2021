@@ -9,6 +9,8 @@
 				:is-first-project="i == 0"
 				class="project"
 			>
+				<UnityRadioEmbed v-if="project.id === 'radio'" />
+
 				<ImageRow
 					v-for="(images, j) in project.imageRows"
 					:key="j"
@@ -39,6 +41,7 @@ import ImageRow from '@/components/ImageRow.vue';
 import ImageOverlay from '@/components/ImageOverlay.vue';
 
 import content from '@/assets/content/';
+import UnityRadioEmbed from '@/components/UnityRadioEmbed.vue';
 
 export default {
 	name: 'Index',
@@ -48,6 +51,7 @@ export default {
 		Section,
 		ImageRow,
 		ImageOverlay,
+		UnityRadioEmbed,
 	},
 	data() {
 		return {

@@ -55,10 +55,6 @@ export default {
 		description: ['Modelbauzeichnung'],
 	}],
 	[{
-		src: tz,
-		description: ['Unity Build Mockup'],
-	}],
-	[{
 		src: werkstatt1,
 		description: ['Modelbau Fräsen'],
 	}, {

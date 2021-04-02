@@ -1,6 +1,8 @@
 <template>
 	<transition name="fade">
-		<LoadingSpinner v-if="loading" />
+		<div v-if="loading" class="loading-spinner">
+			<LoadingSpinner />
+		</div>
 		<div v-else>
 			<NavBar v-model:menu-open="menuOpen" />
 			<NavMenu v-model:open="menuOpen" />
@@ -111,6 +113,18 @@ html {
 <style lang="postcss" scoped>
 main {
 	overflow: hidden;
+}
+
+.loading-spinner {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(var(--col--background));
 }
 
 .fade-enter-active,
