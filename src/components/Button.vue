@@ -44,7 +44,7 @@ button {
 	&.icon {
 		transition: color 200ms ease;
 		::v-deep(svg) {
-			width: 100%;
+			width: auto;
 			height: auto;
 			fill: currentColor;
 		}
