@@ -77,18 +77,18 @@ export default {
 		description: [{ de: 'spachteln der Grundkörpers', en: 'fill the base body'}],
 	}, {
 		src: werkstatt5,
-		description: [{ de: 'Zwischenstand des Radioweckers (Focus Beleuchtung)', en: 'Intermediate status of the radio alarm clock (focus lighting)'}],
+		description: [{ de: 'Zwischenstand des Radioweckers (Fokus Beleuchtung)', en: 'Intermediate status of the radio alarm clock (focus lighting)'}],
 	}],
 	[{
 		src: radiomodel1,
 		description: [{ de: 'Fotomodel', en: 'Photo model'}],
 	}, {
 		src: radiomodel2,
-		description: [{ de: 'Fotomodel - Focus Rückseite und USB-C Anschluss', en: 'Photo model - focus on the back and USB-C connection'}],
+		description: [{ de: 'Fotomodel - Fokus Rückseite und USB-C Anschluss', en: 'Photo model - focus on the back and USB-C connection'}],
 	}],
 	[{
 		src: radiomodel3,
-		description: [{ de: 'Fotomodel - Focus Lautsprecher und Display', en: 'Photo model - focus speakers and display'}],
+		description: [{ de: 'Fotomodel - Fokus Lautsprecher und Display', en: 'Photo model - focus speakers and display'}],
 	}, {
 		src: radiomodel4,
 		description: [{ de: 'Fotomodel', en: 'Photo model'}],
