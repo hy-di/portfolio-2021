@@ -71,16 +71,16 @@ export default {
 	}],
 	[{
 		src: emitposter1,
-		description: [{ de: 'Produktposter (Orb, Case und Glove)', en: ''}],
+		description: [{ de: 'Produktposter (Orb, Case und Glove)', en: 'Product poster (Orb, Case and Glove)'}],
 	}, {
 		src: emitposter2,
-		description: [{ de: 'Produktposter Handtaschen-Desinfektionsspender', en: ''}],
+		description: [{ de: 'Produktposter Handtaschen-Desinfektionsspender', en: 'Product poster handbag disinfectant dispenser'}],
 	}], 
 	[{
 		src: emitposter3,
-		description: [{ de: 'Produktposter Tragebox-Desinfektionsspender', en: ''}],
+		description: [{ de: 'Produktposter Tragebox-Desinfektionsspender', en: 'Product poster carrying box disinfectant dispenser'}],
 	},{
 		src: emitposter4,
-		description: [{ de: 'Produktposter UVC-Licht-Handschuh', en: ''}],
+		description: [{ de: 'Produktposter UV-C-Licht-Handschuh', en: 'Product poster UV-C light glove'}],
 	}]],
 };
