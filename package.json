@@ -6,7 +6,6 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"build-github": "vite build --base=/Portfolio/",
 		"serve": "vite preview"
 	},
 	"repository": {
