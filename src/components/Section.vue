@@ -49,5 +49,8 @@ section {
 	}
 
 	scroll-margin: 32px 0 0 0;
+	@media only screen and (max-width: 480px) {
+		scroll-margin: 64px 0 0 0;
+	}
 }
 </style>

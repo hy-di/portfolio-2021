@@ -44,6 +44,9 @@ section {
 	margin: calc(256px + 64px) 0 calc(512px + 64px);
 	min-height: calc(100vh - 768px);
 	scroll-margin: 100vh 0 0 0;
+	@media only screen and (max-width: 480px) {
+		scroll-margin: 64px 0 0 0;
+	}
 
 	&, .top-leaves {
 		border: solid transparent;
