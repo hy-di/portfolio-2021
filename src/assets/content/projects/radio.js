@@ -21,74 +21,82 @@ import werkstatt5 from '@/assets/img/radio/werkstatt5.jpg';
 export default {
 	id: 'radio',
 	title: 'Radiowecker',
-	description: [
-		'Einzelarbeit',
-		'Unity, Fusion360, Werkstatt & Adobe Creative Cloud',
-		'3. Semester',
-	],
+	description:
+	{
+		de: [
+			'Einzelarbeit',
+			'Unity, Fusion360, Werkstatt & Adobe Creative Cloud',
+			'3. Semester',
+		],
+		en: [
+			'Individual work',
+			'Unity, Fusion360, workshop & Adobe Creative Cloud',
+			'3rd semester',
+		],
+	},
 	imageRows: [[{
 		src: skizzenideen,
-		description: ['Radiowecker Entwürfe'],
+		description: [{ de: 'Radiowecker Entwurfsskizzen', en: 'Clock radio design sketches'}],
 	}, {
 		src: skizzenradio,
-		description: ['Radiowecker gewinner Entwurf 2'],
+		description: [{ de: 'Radiowecker finale Idee - Skizze', en: 'Clock radio final idea - sketch'}],
 	}],
 	[{
 		src: prototyp3,
-		description: ['Mockup Draufsicht'],
+		description: [{ de: 'Lehrmodell - Draufsicht', en: 'Mockup - top view'}],
 	}, {
 		src: prototyp1,
-		description: ['Mockup Frontsicht'],
+		description: [{ de: 'Lehrmodell - Frontansicht', en: 'Mockup - front view'}],
 	}, {
 		src: prototyp2,
-		description: ['Mockup schräge Ansicht'],
+		description: [{ de: 'Lehrmodell - schrägAnsicht', en: 'Mockup - oblique view'}],
 	}],
 	[{
 		src: skizzenbedienung,
-		description: ['Bedienungsentwürfe'],
+		description: [{ de: 'Bedienungsfeld-Layout-Entwürfe', en: 'Control panel layout drafts'}],
 	}, {
 		src: skizzendrehregler,
-		description: ['Drehregler Entwürfe'],
+		description: [{ de: 'Drehregler Entwürfe', en: 'Knob designs'}],
 	}],
 	[{
 		src: tz,
-		description: ['Modelbauzeichnung'],
+		description: [{ de: 'Modelbauzeichnung', en: 'Model drawing'}],
 	}],
 	[{
 		src: werkstatt1,
-		description: ['Modelbau Fräsen'],
+		description: [{ de: 'Model Grundkörper aus Ureol fräsen', en: 'Mill the basic body of the Ureol model'}],
 	}, {
 		src: werkstatt2,
-		description: ['Modelbau Zwischenstand'],
+		description: [{ de: 'Zwischenstand des Grundkörpers', en: 'Intermediate state of the basic body'}],
 	}],
 	[{
 		src: werkstatt3,
-		description: ['Modelbau Feilen'],
+		description: [{ de: 'weitere Bearbeitung - Feilen und Schleifen', en: 'further processing - filing and grinding'}],
 	}, {
 		src: werkstatt4,
-		description: ['Modelbau Spachteln'],
+		description: [{ de: 'spachteln der Grundkörpers', en: 'fill the base body'}],
 	}, {
 		src: werkstatt5,
-		description: ['Modelbau Zwischenstand'],
+		description: [{ de: 'Zwischenstand des Radioweckers (Focus Beleuchtung)', en: 'Intermediate status of the radio alarm clock (focus lighting)'}],
 	}],
 	[{
 		src: radiomodel1,
-		description: ['Fotomodel'],
+		description: [{ de: 'Fotomodel', en: 'Photo model'}],
 	}, {
 		src: radiomodel2,
-		description: ['Fotomodel'],
+		description: [{ de: 'Fotomodel - Focus Rückseite und USB-C Anschluss', en: 'Photo model - focus on the back and USB-C connection'}],
 	}],
 	[{
 		src: radiomodel3,
-		description: ['Fotomodel Unterseite'],
+		description: [{ de: 'Fotomodel - Focus Lautsprecher und Display', en: 'Photo model - focus speakers and display'}],
 	}, {
 		src: radiomodel4,
-		description: ['Fotomodel'],
+		description: [{ de: 'Fotomodel', en: 'Photo model'}],
 	}, {
 		src: radiomodel5,
-		description: ['Fotomodel Front'],
+		description: [{ de: 'Fotomodel Underseite', en: 'Photo model underside'}],
 	}, {
 		src: radiomodel6,
-		description: ['Fotomodel Oberseite'],
+		description: [{ de: 'Fotomodel Oberseite', en: 'Photo model top'}],
 	}]],
 };

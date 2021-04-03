@@ -17,28 +17,28 @@ export default {
 	],
 	imageRows: [[{
 		src: kaeferreal,
-		description: ['Abstraktion Käfer'],
+		description: [{ de: 'Abstraktion Käfer', en: ''}],
 	}],
 	[{
 		src: simpleikons,
-		description: ['Vereinfachung Käfer'],
+		description: [{ de: 'Vereinfachung Käfer', en: ''}],
 	},{
 		src: fuenfikons,
-		description: ['Icon Ideen'],
+		description: [{ de: 'Icon Ideen', en: ''}],
 	}],
 	[{
 		src: imago,
-		description: ['Käfer basiertes Logo'],
+		description: [{ de: 'Käfer basiertes Logo', en: ''}],
 	}], 
 	[{
 		src: hm1,
-		description: ['Monogramm Ideen'],
+		description: [{ de: 'Monogramm Ideen', en: ''}],
 	}],
 	[{
 		src: hm2,
-		description: ['Monogramm dunkle Version'],
+		description: [{ de: 'Monogramm dunkle Version', en: ''}],
 	},{
 		src: hm3,
-		description: ['Monogramm helle Version'],
+		description: [{ de: 'Monogramm helle Version', en: ''}],
 	}]],
 };

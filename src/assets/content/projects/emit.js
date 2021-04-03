@@ -19,60 +19,68 @@ import uveiversion22 from '@/assets/img/emit/uveiversion2-2.jpg';
 export default {
 	id: 'emit',
 	title: 'Emit',
-	description: [
-		'3er-Gruppenarbeit',
-		'Fusion360, Rhino6, Blender und Adobe Creative Cloud',
-		'3. Semester',
-	],
+	description:{
+		de: [
+			'3er-Gruppenarbeit',
+			'Fusion360, Rhino6, Blender und Adobe Creative Cloud',
+			'3. Semester',
+		],
+		en: [
+			'3-person group work',
+			'Fusion360, Rhino6, Blender und Adobe Creative Cloud',
+			'3rd semester',
+		],
+	},
+
 	imageRows: [[{
 		src: knetei1,
-		description: ['Orb Mockup'],
+		description: [{ de: 'Lehrmodell - Anwendung', en: 'Mockup - application'}],
 	}, {
 		src: knetei2,
-		description: ['Orb Mockup'],
+		description: [{ de: 'Lehrmodell - Draufsicht', en: 'Mockup - top view'}],
 	}],
 	[{
 		src: einweghandschuhe,
-		description: ['Handschuh Studie'],
+		description: [{ de: 'Handschuh Studie zur Formstabilität', en: 'Glove study on dimensional stability'}],
 	}],
 	[{
 		src: uveiversion11,
-		description: ['Orb Version 1'],
+		description: [{ de: 'erster CAD Entwurf des Handtaschen-Desinfektionsspenders (Orb)', en: 'First CAD design of the handbag disinfectant dispenser (Orb)'}],
 	}, {
 		src: uveiversion12,
-		description: ['Orb Version 1'],
+		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders', en: 'second CAD design of the handbag disinfectant dispenser'}],
 	},{
 		src: uveiversion21,
-		description: ['Orb Version 2'],
+		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders', en: 'second CAD design of the handbag disinfectant dispenser'}],
 	}, {
 		src: uveiversion22,
-		description: ['Orb Version 2'],
+		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders - Focus Riffelung', en: 'second CAD design of the handbag disinfectant dispenser - Focus corrugation'}],
 	}],
 	[{
 		src: uvboxversion1,
-		description: ['Case Version 1'],
+		description: [{ de: 'erster CAD Entwurf des Tragebox-Desinfektionsspenders (Case)', en: 'first CAD draft of the carrying box disinfection dispenser (case)'}],
 	},{
 		src: uvboxversion21,
-		description: ['Case Version 2'],
+		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders - Focus langer Tragegurt', en: 'first CAD draft of the carrying box disinfection dispenser - Focus long shoulder strap'}],
 	},{
 		src: uvboxversion22,
-		description: ['Case Version 2'],
+		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders - Gesamtübersicht', en: 'first CAD draft of the carrying box disinfection dispenser - General overview'}],
 	}, {
 		src: uvboxversion23,
-		description: ['Case Version 2'],
+		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders - Focus Innenleben', en: 'first CAD draft of the carrying box disinfection dispenser - Focus internals'}],
 	}],
 	[{
 		src: emitposter1,
-		description: ['Produkt Poster'],
+		description: [{ de: 'Produktposter (Orb, Case und Glove)', en: ''}],
 	}, {
 		src: emitposter2,
-		description: ['Orb Informationsposter'],
+		description: [{ de: 'Produktposter Handtaschen-Desinfektionsspender', en: ''}],
 	}], 
 	[{
 		src: emitposter3,
-		description: ['Glove Informationsposter'],
+		description: [{ de: 'Produktposter Tragebox-Desinfektionsspender', en: ''}],
 	},{
 		src: emitposter4,
-		description: ['Case Informationsposter'],
+		description: [{ de: 'Produktposter UVC-Licht-Handschuh', en: ''}],
 	}]],
 };

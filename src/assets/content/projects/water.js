@@ -34,54 +34,54 @@ export default {
 		},
 	}, {
 		src: showerskizze1,
-		description: ['Duschamatur Skizze'],
+		description: [{ de: 'Duschamatur Skizze', en: ''}],
 	}],
 	[{
 		src: sinkskizze2,
-		description: ['Wasserhahn Skizze'],
+		description: [{ de: 'Wasserhahn Skizze', en: ''}],
 	},{
 		src: showerskizze2,
-		description: ['Duschamatur Skizze'],
+		description: [{ de: 'Duschamatur Skizze', en: ''}],
 	}],
 	[{
 		src: tapmodel1,
-		description: ['Wasserhahn Knetmodel'],
+		description: [{ de: 'Wasserhahn Knetmodel', en: ''}],
 	},{
 		src: tapmodel2,
-		description: ['Wasserhahn Knetmodel'],
+		description: [{ de: 'Wasserhahn Knetmodel', en: ''}],
 	}, {
 		src: tapmodel3,
-		description: ['Wasserhahn Knetmodel'],
+		description: [{ de: 'Wasserhahn Knetmodel', en: ''}],
 	}],
 	[{
 		src: showerheadmodel1,
-		description: ['Duschkopf Knetmodel'],
+		description: [{ de: 'Duschkopf Knetmodel', en: ''}],
 	},{
 		src: showerheadmodel2,
-		description: ['Duschkopf Knetmodel'],
+		description: [{ de: 'Duschkopf Knetmodel', en: ''}],
 	},{
 		src: showerheadmodel3,
-		description: ['Duschkopf Knetmodel'],
+		description: [{ de: 'Duschkopf Knetmodel', en: ''}],
 	}],
 	[{
 		src: sinkskizze3,
-		description: ['Waschbecken Skizze'],
+		description: [{ de: 'Waschbecken Skizze', en: ''}],
 	}, {
 		src: showerskizze3,
-		description: ['Duschraum Skizze'],
+		description: [{ de: 'Duschraum Skizze', en: ''}],
 	}],
 	[{
 		src: sinkconzept,
-		description: ['Waschbecken Ideeskizze'],
+		description: [{ de: 'Waschbecken Ideeskizze', en: ''}],
 	}, {
 		src: sinkroom,
-		description: ['Waschbecken CAD Visualisierung'],
+		description: [{ de: 'Waschbecken CAD Visualisierung', en: ''}],
 	}],
 	[{
 		src: showerconzept,
-		description: ['Duschraum Ideeskizze'],
+		description: [{ de: 'Duschraum Ideeskizze', en: ''}],
 	},{
 		src: showerroom,
-		description: ['Duschraum CAD Visualisierung'],
+		description: [{ de: 'Duschraum CAD Visualisierung', en: ''}],
 	}]],
 };

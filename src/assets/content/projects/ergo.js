@@ -20,30 +20,30 @@ export default {
 	],
 	imageRows: [[{
 		src: fahrradablauf,
-		description: ['Fahrrad Haltungsanalysa'],
+		description: [{ de: 'Fahrrad Haltungsanalysa', en: ''}],
 	}],
 	[{
 		src: fahrradbewegung,
-		description: ['Fahrrad Bewegungsanalyse'],
+		description: [{ de: 'Fahrrad Bewegungsanalyse', en: ''}],
 	}, {
 		src: fahrrad,
-		description: ['personalisiertes Fahrrad'],
+		description: [{ de: 'personalisiertes Fahrrad', en: ''}],
 	}],
 	[{
 		src: diagramm1,
-		description: ['Zähneputzen Ablauf'],
+		description: [{ de: 'Zähneputzen Ablauf', en: ''}],
 	}, {
 		src: diagramm2,
-		description: ['Zähneputzen Zeit-/ Bewegungsablaug'],
+		description: [{ de: 'Zähneputzen Zeit-/ Bewegungsablaug', en: ''}],
 	}],
 	[{
 		src: zaehneputzenlinks,
-		description: ['Zähne putzen Haltungsanalyse'],
+		description: [{ de: 'Zähne putzen Haltungsanalyse', en: ''}],
 	},{
 		src: zaehneputzenvorne,
-		description: ['Zähne putzen Haltungsanalyse'],
+		description: [{ de: 'Zähne putzen Haltungsanalyse', en: ''}],
 	},{
 		src: zaehneputzenrechts,
-		description: ['Zähne putzen Haltungsanalyse'],
+		description: [{ de: 'Zähne putzen Haltungsanalyse', en: ''}],
 	}]],
 };
