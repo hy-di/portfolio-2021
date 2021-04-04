@@ -13,37 +13,44 @@ import diagramm2 from '@/assets/img/ergo/diagramm2.png';
 export default {
 	id: 'ergo',
 	title: 'Ergonomische Untersuchungen',
-	description: [
-		'Einzelarbeit',
-		'Rhino6 & Adobe Creative Cloud',
-		'3. Semester',
-	],
+	description: {
+		de: [
+			'Einzelarbeit',
+			'Rhino6 & Adobe Creative Cloud',
+			'3. Semester',
+		],
+		en: [
+			'Individual work',
+			'Rhino6 & Adobe Creative Cloud',
+			'3rd semester',
+		],
+	},
 	imageRows: [[{
 		src: fahrradablauf,
-		description: [{ de: 'Fahrrad Haltungsanalysa', en: ''}],
+		description: [{ de: 'Fahrrad Haltungsanalyse für Sattel und Lenker', en: 'Bicycle posture analysis for saddle and handlebars'}],
 	}],
 	[{
 		src: fahrradbewegung,
-		description: [{ de: 'Fahrrad Bewegungsanalyse', en: ''}],
+		description: [{ de: 'Fahrrad Bewegungsanalyse und Sichtkegel', en: 'Bicycle motion analysis and cone of vision'}],
 	}, {
 		src: fahrrad,
-		description: [{ de: 'personalisiertes Fahrrad', en: ''}],
+		description: [{ de: 'personalisiertes Fahrrad', en: 'personalized bike'}],
 	}],
 	[{
 		src: diagramm1,
-		description: [{ de: 'Zähneputzen Ablauf', en: ''}],
+		description: [{ de: 'Zähneputzen Ablaufanalyse', en: 'Brushing your teeth process analysis'}],
 	}, {
 		src: diagramm2,
-		description: [{ de: 'Zähneputzen Zeit-/ Bewegungsablaug', en: ''}],
+		description: [{ de: 'Zähneputzen Zeit-/ Bewegungsanalyse', en: 'Brushing teeth time / movement analysis'}],
 	}],
 	[{
 		src: zaehneputzenlinks,
-		description: [{ de: 'Zähne putzen Haltungsanalyse', en: ''}],
+		description: [{ de: 'Zähne putzen Haltungsanalyse - linke Zahnbereich', en: 'Brush your teeth Posture analysis - left tooth area'}],
 	},{
 		src: zaehneputzenvorne,
-		description: [{ de: 'Zähne putzen Haltungsanalyse', en: ''}],
+		description: [{ de: 'Zähne putzen Haltungsanalyse - vordere Zahnbereich', en: 'Brush your teeth Posture analysis - front tooth area'}],
 	},{
 		src: zaehneputzenrechts,
-		description: [{ de: 'Zähne putzen Haltungsanalyse', en: ''}],
+		description: [{ de: 'Zähne putzen Haltungsanalyse - rechte Zahnbereich', en: 'Brush your teeth Posture analysis - right tooth area'}],
 	}]],
 };
