@@ -25,7 +25,7 @@ export default {
 		de: [
 			'Einzelarbeit',
 			'Fusion360, Werkstatt & Adobe Creative Cloud',
-			'. Semester',
+			'2. Semester',
 		],
 		en: [
 			'Individual work',

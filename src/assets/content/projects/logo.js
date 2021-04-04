@@ -1,6 +1,6 @@
 import hm1 from '@/assets/img/logo/hm1.png';
-import hm2 from '@/assets/img/logo/hm2.png';
-import hm3 from '@/assets/img/logo/hm3.png';
+import mono1 from '@/assets/img/logo/mono1.png';
+import mono2 from '@/assets/img/logo/mono2.png';
 import fuenfikons from '@/assets/img/logo/fuenfikons.jpg';
 import imago from '@/assets/img/logo/imago.png';
 import kaeferreal from '@/assets/img/logo/kaeferreal.jpg';
@@ -10,35 +10,42 @@ import simpleikons from '@/assets/img/logo/simpleikons.png';
 export default {
 	id: 'logo',
 	title: 'Logo Design',
-	description: [
-		'Einzelarbeit',
-		'Adobe Creative Cloud',
-		'2. Semester',
-	],
+	description:{
+		de: [
+			'Einzelarbeit',
+			'Adobe Creative Cloud',
+			'2. Semester',
+		],
+		en: [
+			'Individual work',
+			'Adobe Creative Cloud',
+			'2nd semester',
+		],
+	},
 	imageRows: [[{
 		src: kaeferreal,
-		description: [{ de: 'Abstraktion Käfer', en: ''}],
+		description: [{ de: 'realistischer Käfer und Abstraktion', en: 'realistic beetle and abstraction'}],
 	}],
 	[{
 		src: simpleikons,
-		description: [{ de: 'Vereinfachung Käfer', en: ''}],
+		description: [{ de: 'Vereinfachung der Abstraktion', en: 'Simplification of the abstraction'}],
 	},{
 		src: fuenfikons,
-		description: [{ de: 'Icon Ideen', en: ''}],
+		description: [{ de: 'Icon Varianten', en: 'Icon variants'}],
 	}],
 	[{
 		src: imago,
-		description: [{ de: 'Käfer basiertes Logo', en: ''}],
+		description: [{ de: 'Käfer basiertes Logo', en: 'Beetle based logo'}],
 	}], 
 	[{
 		src: hm1,
-		description: [{ de: 'Monogramm Ideen', en: ''}],
+		description: [{ de: 'Monogramm Ideen', en: 'Monogram ideas'}],
 	}],
 	[{
-		src: hm2,
-		description: [{ de: 'Monogramm dunkle Version', en: ''}],
+		src: mono1,
+		description: [{ de: 'Monogramm - dunkle Version', en: 'Monogram - dark version'}],
 	},{
-		src: hm3,
-		description: [{ de: 'Monogramm helle Version', en: ''}],
+		src: mono2,
+		description: [{ de: 'Monogramm - helle Version', en: 'Monogram - light version'}],
 	}]],
 };
