@@ -20,7 +20,7 @@ import werkstatt5 from '@/assets/img/radio/werkstatt5.jpg';
 
 export default {
 	id: 'radio',
-	title: 'Radiowecker',
+	title: { de: 'Radiowecker', en: 'Radio alarm clock' },
 	description:{
 		de: [
 			'Einzelarbeit',

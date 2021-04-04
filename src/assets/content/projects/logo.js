@@ -9,7 +9,7 @@ import simpleikons from '@/assets/img/logo/simpleikons.png';
 
 export default {
 	id: 'logo',
-	title: 'Logo Design',
+	title: { de: 'Logo Gestaltung', en: 'Logo design' },
 	description:{
 		de: [
 			'Einzelarbeit',

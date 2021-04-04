@@ -20,7 +20,7 @@ import tapmodel3 from '@/assets/img/water/tapmodel3.jpg';
 
 export default {
 	id: 'water',
-	title: 'Amaturgestaltung',
+	title: { de: 'Armaturgestaltung', en: 'Valve design' },
 	description:{
 		de: [
 			'Einzelarbeit',

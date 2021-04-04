@@ -12,7 +12,7 @@ import diagramm2 from '@/assets/img/ergo/diagramm2.png';
 
 export default {
 	id: 'ergo',
-	title: 'Ergonomische Untersuchungen',
+	title: { de: 'Ergonomische Untersuchungen', en: 'Ergonomic examinations' },
 	description: {
 		de: [
 			'Einzelarbeit',
