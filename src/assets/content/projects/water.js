@@ -21,67 +21,71 @@ import tapmodel3 from '@/assets/img/water/tapmodel3.jpg';
 export default {
 	id: 'water',
 	title: 'Amaturgestaltung',
-	description: [
-		'Einzelarbeit',
-		'Fusion360, Modellbau & Adobe Creative Cloud',
-		'2. Semester',
-	],
+	description:{
+		de: [
+			'Einzelarbeit',
+			'Fusion360, Werkstatt & Adobe Creative Cloud',
+			'. Semester',
+		],
+		en: [
+			'Individual work',
+			'Fusion360, workshop & Adobe Creative Cloud',
+			'2nd semester',
+		],
+	},
 	imageRows: [[{
 		src: sinkskizze1,
-		description: {
-			de: ['Wasserhahn Skizze'],
-			en: ['Tap Sketch'],
-		},
+		description: [{ de: 'erste Wasserhahn Ideeskizze', en: 'first tap idea sketch'}],
 	}, {
 		src: showerskizze1,
-		description: [{ de: 'Duschamatur Skizze', en: ''}],
+		description: [{ de: 'erste Duscharmatur Ideenskizzen', en: 'first shower faucet idea sketches'}],
 	}],
 	[{
 		src: sinkskizze2,
-		description: [{ de: 'Wasserhahn Skizze', en: ''}],
+		description: [{ de: 'Wasserhahn Skizze', en: 'Tap sketch'}],
 	},{
 		src: showerskizze2,
-		description: [{ de: 'Duschamatur Skizze', en: ''}],
+		description: [{ de: 'Duschkopf Skizze', en: 'Shower head sketch'}],
 	}],
 	[{
 		src: tapmodel1,
-		description: [{ de: 'Wasserhahn Knetmodel', en: ''}],
+		description: [{ de: 'Wasserhahn Knetmodell - leichte Seitenansicht', en: 'Faucet modeling clay - slight side view'}],
 	},{
 		src: tapmodel2,
-		description: [{ de: 'Wasserhahn Knetmodel', en: ''}],
+		description: [{ de: 'Wasserhahn Knetmodell - leichte Draufsicht', en: 'Faucet modeling clay - slight top view'}],
 	}, {
 		src: tapmodel3,
-		description: [{ de: 'Wasserhahn Knetmodel', en: ''}],
+		description: [{ de: 'Wasserhahn Knetmodell - leichte Frontansicht', en: 'Faucet modeling clay - slight front view'}],
 	}],
 	[{
 		src: showerheadmodel1,
-		description: [{ de: 'Duschkopf Knetmodel', en: ''}],
+		description: [{ de: 'Duschkopf Knetmodell - leichte Draufsicht', en: 'Shower head modeling clay - slight top view'}],
 	},{
 		src: showerheadmodel2,
-		description: [{ de: 'Duschkopf Knetmodel', en: ''}],
+		description: [{ de: 'Duschkopf Knetmodell - leichte Frontansicht', en: 'Shower head modeling clay - slight front view'}],
 	},{
 		src: showerheadmodel3,
-		description: [{ de: 'Duschkopf Knetmodel', en: ''}],
+		description: [{ de: 'Duschkopf Knetmodell - leichte Seitenansicht', en: 'Shower head modeling clay - slight side view'}],
 	}],
 	[{
 		src: sinkskizze3,
-		description: [{ de: 'Waschbecken Skizze', en: ''}],
+		description: [{ de: 'Waschbeckenraum Skizze', en: 'Wash basin room sketch'}],
 	}, {
 		src: showerskizze3,
-		description: [{ de: 'Duschraum Skizze', en: ''}],
+		description: [{ de: 'Duschraum Skizze', en: 'Shower room sketch'}],
 	}],
 	[{
 		src: sinkconzept,
-		description: [{ de: 'Waschbecken Ideeskizze', en: ''}],
+		description: [{ de: 'Waschbecken Konzeptvisualisierung', en: 'Sink concept visualization'}],
 	}, {
 		src: sinkroom,
-		description: [{ de: 'Waschbecken CAD Visualisierung', en: ''}],
+		description: [{ de: 'CAD Waschbeckenraum', en: 'CAD sink space'}],
 	}],
 	[{
 		src: showerconzept,
-		description: [{ de: 'Duschraum Ideeskizze', en: ''}],
+		description: [{ de: 'Duschraum Konzeptvisualisierung', en: 'Shower room concept visualization'}],
 	},{
 		src: showerroom,
-		description: [{ de: 'Duschraum CAD Visualisierung', en: ''}],
+		description: [{ de: 'CAD Duschraum', en: 'CAD shower room'}],
 	}]],
 };
