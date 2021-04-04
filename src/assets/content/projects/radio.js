@@ -21,8 +21,7 @@ import werkstatt5 from '@/assets/img/radio/werkstatt5.jpg';
 export default {
 	id: 'radio',
 	title: 'Radiowecker',
-	description:
-	{
+	description:{
 		de: [
 			'Einzelarbeit',
 			'Unity, Fusion360, Werkstatt & Adobe Creative Cloud',
