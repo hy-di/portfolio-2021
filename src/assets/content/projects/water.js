@@ -49,23 +49,23 @@ export default {
 	}],
 	[{
 		src: tapmodel1,
-		description: [{ de: 'Wasserhahn Knetmodell - leichte Seitenansicht', en: 'Faucet modeling clay - slight side view'}],
+		description: [{ de: 'Wasserhahn Knetmodell – leichte Seitenansicht', en: 'Faucet modeling clay – slight side view'}],
 	},{
 		src: tapmodel2,
-		description: [{ de: 'Wasserhahn Knetmodell - leichte Draufsicht', en: 'Faucet modeling clay - slight top view'}],
+		description: [{ de: 'Wasserhahn Knetmodell – leichte Draufsicht', en: 'Faucet modeling clay – slight top view'}],
 	}, {
 		src: tapmodel3,
-		description: [{ de: 'Wasserhahn Knetmodell - leichte Frontansicht', en: 'Faucet modeling clay - slight front view'}],
+		description: [{ de: 'Wasserhahn Knetmodell – leichte Frontansicht', en: 'Faucet modeling clay – slight front view'}],
 	}],
 	[{
 		src: showerheadmodel1,
-		description: [{ de: 'Duschkopf Knetmodell - leichte Draufsicht', en: 'Shower head modeling clay - slight top view'}],
+		description: [{ de: 'Duschkopf Knetmodell – leichte Draufsicht', en: 'Shower head modeling clay – slight top view'}],
 	},{
 		src: showerheadmodel2,
-		description: [{ de: 'Duschkopf Knetmodell - leichte Frontansicht', en: 'Shower head modeling clay - slight front view'}],
+		description: [{ de: 'Duschkopf Knetmodell – leichte Frontansicht', en: 'Shower head modeling clay – slight front view'}],
 	},{
 		src: showerheadmodel3,
-		description: [{ de: 'Duschkopf Knetmodell - leichte Seitenansicht', en: 'Shower head modeling clay - slight side view'}],
+		description: [{ de: 'Duschkopf Knetmodell – leichte Seitenansicht', en: 'Shower head modeling clay – slight side view'}],
 	}],
 	[{
 		src: sinkskizze3,

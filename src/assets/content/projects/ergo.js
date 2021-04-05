@@ -34,7 +34,7 @@ export default {
 		description: [{ de: 'Fahrrad Bewegungsanalyse und Sichtkegel', en: 'Bicycle motion analysis and cone of vision'}],
 	}, {
 		src: fahrrad,
-		description: [{ de: 'personalisiertes Fahrrad', en: 'personalized bike'}],
+		description: [{ de: 'personalisiertes Fahrradmodell', en: 'personalized bike model'}],
 	}],
 	[{
 		src: diagramm1,
@@ -45,12 +45,12 @@ export default {
 	}],
 	[{
 		src: zaehneputzenlinks,
-		description: [{ de: 'Zähne putzen Haltungsanalyse - linke Zahnbereich', en: 'Brush your teeth Posture analysis - left tooth area'}],
+		description: [{ de: 'Zähne putzen Haltungsanalyse – linke Zahnbereich', en: 'Brush your teeth Posture analysis – left tooth area'}],
 	},{
 		src: zaehneputzenvorne,
-		description: [{ de: 'Zähne putzen Haltungsanalyse - vordere Zahnbereich', en: 'Brush your teeth Posture analysis - front tooth area'}],
+		description: [{ de: 'Zähne putzen Haltungsanalyse – vordere Zahnbereich', en: 'Brush your teeth Posture analysis – front tooth area'}],
 	},{
 		src: zaehneputzenrechts,
-		description: [{ de: 'Zähne putzen Haltungsanalyse - rechte Zahnbereich', en: 'Brush your teeth Posture analysis - right tooth area'}],
+		description: [{ de: 'Zähne putzen Haltungsanalyse – rechte Zahnbereich', en: 'Brush your teeth Posture analysis – right tooth area'}],
 	}]],
 };

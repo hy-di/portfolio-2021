@@ -50,7 +50,7 @@ export default {
 		flex-shrink: 1;
 		flex-grow: 1;
 		width: 300px;
-		margin: 16px;
+		margin: 16px 15px;
 
 		img {
 			display: block;
@@ -73,6 +73,7 @@ export default {
 			background-color: rgba(var(--col-accent), 0.7);
 			font-size: calc(18em / 16);
 			text-shadow: 0 0 4px black;
+			padding: 0 1em;
 
 			opacity: 0;
 			transform: translateY(10%);

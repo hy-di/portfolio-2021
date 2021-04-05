@@ -16,7 +16,7 @@ const data = {
 			headline: 'Hallo,<br>ich bin Heidi Meyer',
 			text: [
 				'und ich bin Produktdesign Studentin an der HdM Stuttgart im 4. Semester.',
-				'Ich arbeite derzeit neben meinem Studium als Werkstudentin bei DEKRA.',
+				'',
 				'In meiner Freizeit bin ich leidenschaftliche Pflanzenhüterin und immer für einen Grillabend in der Natur zu haben. In der verbleibenden Zeit lebe ich mich gerne mit kreativen Heimwerker-Projekten aus.',
 			],
 		},

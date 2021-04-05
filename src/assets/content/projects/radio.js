@@ -38,17 +38,17 @@ export default {
 		description: [{ de: 'Radiowecker Entwurfsskizzen', en: 'Clock radio design sketches'}],
 	}, {
 		src: skizzenradio,
-		description: [{ de: 'Radiowecker finale Idee - Skizze', en: 'Clock radio final idea - sketch'}],
+		description: [{ de: 'Radiowecker finale Idee – Skizze', en: 'Clock radio final idea – sketch'}],
 	}],
 	[{
 		src: prototyp3,
-		description: [{ de: 'Lehrmodell - Draufsicht', en: 'Mockup - top view'}],
+		description: [{ de: 'Lehrmodell – Draufsicht', en: 'Mockup – top view'}],
 	}, {
 		src: prototyp1,
-		description: [{ de: 'Lehrmodell - Frontansicht', en: 'Mockup - front view'}],
+		description: [{ de: 'Lehrmodell – Frontansicht', en: 'Mockup – front view'}],
 	}, {
 		src: prototyp2,
-		description: [{ de: 'Lehrmodell - schrägAnsicht', en: 'Mockup - oblique view'}],
+		description: [{ de: 'Lehrmodell – schrägAnsicht', en: 'Mockup – oblique view'}],
 	}],
 	[{
 		src: skizzenbedienung,
@@ -70,7 +70,7 @@ export default {
 	}],
 	[{
 		src: werkstatt3,
-		description: [{ de: 'weitere Bearbeitung - Feilen und Schleifen', en: 'further processing - filing and grinding'}],
+		description: [{ de: 'weitere Bearbeitung – Feilen und Schleifen', en: 'further processing – filing and grinding'}],
 	}, {
 		src: werkstatt4,
 		description: [{ de: 'spachteln der Grundkörpers', en: 'fill the base body'}],
@@ -83,11 +83,11 @@ export default {
 		description: [{ de: 'Fotomodel', en: 'Photo model'}],
 	}, {
 		src: radiomodel2,
-		description: [{ de: 'Fotomodel - Fokus Rückseite und USB-C Anschluss', en: 'Photo model - focus on the back and USB-C connection'}],
+		description: [{ de: 'Fotomodel – Fokus Rückseite und USB-C Anschluss', en: 'Photo model – focus on the back and USB-C connection'}],
 	}],
 	[{
 		src: radiomodel3,
-		description: [{ de: 'Fotomodel - Fokus Lautsprecher und Display', en: 'Photo model - focus speakers and display'}],
+		description: [{ de: 'Fotomodel – Fokus Lautsprecher und Display', en: 'Photo model – focus speakers and display'}],
 	}, {
 		src: radiomodel4,
 		description: [{ de: 'Fotomodel', en: 'Photo model'}],

@@ -43,9 +43,9 @@ export default {
 	}],
 	[{
 		src: mono1,
-		description: [{ de: 'Monogramm - dunkle Version', en: 'Monogram - dark version'}],
+		description: [{ de: 'Monogramm – dunkle Version', en: 'Monogram – dark version'}],
 	},{
 		src: mono2,
-		description: [{ de: 'Monogramm - helle Version', en: 'Monogram - light version'}],
+		description: [{ de: 'Monogramm – helle Version', en: 'Monogram – light version'}],
 	}]],
 };

@@ -130,6 +130,7 @@ export default {
 		}
 
 		ul {
+			margin-top: 2em;
 			padding-left: 0;
 			font-size: calc(36em / 16);
 			font-weight: bold;
@@ -138,7 +139,8 @@ export default {
 				list-style-type: none;
 				margin-top: 0.5em;
 			}
-			li + li {
+			li + li,
+			& + li {
 				margin-top: 2em;
 			}
 
