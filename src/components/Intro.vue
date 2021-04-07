@@ -1,7 +1,10 @@
 <template>
 	<section id="intro">
 		<div class="row">
-			<img :src="image" alt="profile image">
+			<div class="profile-image">
+				<img class="default-img" :src="image" alt="profile image">
+				<img class="hover-img" :src="imageHover">
+			</div>
 			<div>
 				<!-- eslint-disable-next-line vue/no-v-html -->
 				<h1 v-html="headline" />
@@ -34,6 +37,10 @@ export default {
 			type: String,
 			default: undefined,
 		},
+		imageHover: {
+			type: String,
+			default: undefined,
+		},
 	},
 };
 </script>
@@ -45,7 +52,7 @@ export default {
 	100% { transform: translateY(calc(-100% - 128px)); }
 }
 
-@keyframes fade-in {
+@keyframes shift-in {
 	0% {
 		opacity: 0;
 		transform: translateY(32px) scale(0.8);
@@ -109,16 +116,38 @@ section {
 	justify-content: center;
 	align-items: center;
 
-	img {
+	.profile-image {
 		flex-shrink: 0;
-		display: block;
-		border: 2px solid rgb(var(--col-foreground));
-		border-radius: 50%;
+		position: relative;
 		width: 400px;
 		max-width: calc(100% - 48px);
 		margin-left: 64px;
+		animation: shift-in 1000ms ease 1600ms both;
 
-		animation: fade-in 1000ms ease 1600ms both;
+		img {
+			display: block;
+			border-radius: 50%;
+		}
+
+		img.default-img {
+			width: 100%;
+			border: 2px solid rgb(var(--col-foreground));
+
+		}
+		img.hover-img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 2px solid transparent;
+			opacity: 0;
+		}
+
+		img.default-img:hover + img.hover-img,
+		img.hover-img:hover {
+			opacity: 1;
+		}
 	}
 }
 
@@ -126,7 +155,7 @@ section {
 	.row {
 		flex-wrap: wrap;
 
-		img {
+		.profile-image {
 			margin-left: 0;
 			margin-bottom: 32px;
 		}

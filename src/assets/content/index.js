@@ -7,12 +7,14 @@ import water from './projects/water.js';
 import logo from './projects/logo.js';
 import impres from './sections/impres.js';
 import profileImage from '../img/profile.jpg';
+import profileImageHover from '../img/profile-hover.jpg';
 
 const DEFAULT_LANG = 'de';
 
 const data = {
 	intro: {
 		image: profileImage,
+		imageHover: profileImageHover,
 		de: {
 			title: 'Über Mich',
 			headline: 'Hallo,<br>ich bin Heidi Meyer',
