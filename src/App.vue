@@ -20,7 +20,9 @@ import NavMenu from '@/components/NavMenu.vue';
 
 import Index from '@/pages/Index.vue';
 
-import introImageSrc from '@/assets/img/bg-intro.png';
+import bgImageSrc from '@/assets/img/bg.png';
+import introBgImageSrc from '@/assets/img/bg-intro.png';
+import content from '@/assets/content';
 
 export default {
 	name: 'App',
@@ -37,9 +39,23 @@ export default {
 		};
 	},
 	created() {
-		const introImage = new Image();
-		introImage.onload = () => this.loading = false;
-		introImage.src = introImageSrc;
+		Promise.all([
+			this.loadImage(bgImageSrc),
+			this.loadImage(introBgImageSrc),
+			this.loadImage(content.value.intro.image),
+		])
+			.then(() => this.loading = false)
+			.catch(() => this.loading = false);
+	},
+	methods: {
+		loadImage(src) {
+			return new Promise((resolve, reject) => {
+				const image = new Image();
+				image.onload = resolve;
+				image.onerror = reject;
+				image.src = src;
+			});
+		},
 	},
 };
 </script>

@@ -1,15 +1,19 @@
 <template>
 	<section id="intro">
-		<!-- eslint-disable-next-line vue/no-v-html -->
-		<h1 v-html="headline" />
-		<p
-			v-for="(paragraph, i) in text"
-			:key="i"
-			class="description"
-		>
-			{{ paragraph }}
-		</p>
-		<slot />
+		<div class="row">
+			<img :src="image" alt="profile image">
+			<div>
+				<!-- eslint-disable-next-line vue/no-v-html -->
+				<h1 v-html="headline" />
+				<p
+					v-for="(paragraph, i) in text"
+					:key="i"
+					class="description"
+				>
+					{{ paragraph }}
+				</p>
+			</div>
+		</div>
 		<div class="top-leaves" />
 	</section>
 </template>
@@ -26,6 +30,10 @@ export default {
 			type: Array,
 			required: true,
 		},
+		image: {
+			type: String,
+			default: undefined,
+		},
 	},
 };
 </script>
@@ -33,8 +41,19 @@ export default {
 <style lang="postcss">
 /* Due to a Vite bug, this needs to be unscoped for now */
 @keyframes move-up-leaves {
-	0% { transform: translateY(0); }
+	0% { transform: none }
 	100% { transform: translateY(calc(-100% - 128px)); }
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		transform: translateY(32px) scale(0.8);
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
 }
 </style>
 
@@ -81,6 +100,36 @@ section {
 	@media only screen and (max-width: 1344px) and (min-width: 480px) {
 		padding-left: 48px;
 		padding-right: 48px;
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		flex-shrink: 0;
+		display: block;
+		border: 2px solid rgb(var(--col-foreground));
+		border-radius: 50%;
+		width: 400px;
+		max-width: calc(100% - 48px);
+		margin-left: 64px;
+
+		animation: fade-in 1000ms ease 1600ms both;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.row {
+		flex-wrap: wrap;
+
+		img {
+			margin-left: 0;
+			margin-bottom: 32px;
+		}
 	}
 }
 

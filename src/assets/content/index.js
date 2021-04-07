@@ -6,11 +6,13 @@ import ergo from './projects/ergo.js';
 import water from './projects/water.js';
 import logo from './projects/logo.js';
 import impres from './sections/impres.js';
+import profileImage from '../img/profile.jpg';
 
 const DEFAULT_LANG = 'de';
 
 const data = {
 	intro: {
+		image: profileImage,
 		de: {
 			title: 'Über Mich',
 			headline: 'Hallo,<br>ich bin Heidi Meyer',
