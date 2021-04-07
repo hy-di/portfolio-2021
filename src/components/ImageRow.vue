@@ -4,7 +4,7 @@
 			v-for="(image, i) in images"
 			:key="i"
 			class="image"
-			@click="$emit('image-click', image)"
+			@click="() => onImageClick(image)"
 		>
 			<img :src="image.src">
 			<div class="hover-caption">
@@ -34,6 +34,12 @@ export default {
 		},
 	},
 	emits: ['image-click'],
+	methods: {
+		onImageClick(image) {
+			if (!window.matchMedia('(min-width: 480px)').matches) return;
+			this.$emit('image-click', image);
+		},
+	},
 };
 </script>
 

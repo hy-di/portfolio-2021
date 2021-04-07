@@ -160,6 +160,7 @@ export default {
 	}
 
 	button {
+		display: flex;
 		padding: 24px;
 		width: calc(32px + 24px * 2);
 	}
