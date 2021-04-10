@@ -6,8 +6,8 @@ import ergo from './projects/ergo.js';
 import water from './projects/water.js';
 import logo from './projects/logo.js';
 import impres from './sections/impres.js';
-import profileImage from '../img/profile.jpg';
-import profileImageHover from '../img/profile-hover.jpg';
+import profileImage from '../img/profile2.jpg';
+import profileImageHover from '../img/profile-hover3.jpg';
 
 const DEFAULT_LANG = 'de';
 
@@ -20,7 +20,10 @@ const data = {
 			headline: 'Hallo,<br>ich bin Heidi Meyer',
 			text: [
 				'und ich bin Produktdesign Studentin an der HdM Stuttgart im 4. Semester.',
-				'',
+				'Gestaltung und Naturwissenschaften haben mich schon immer interessiert.',
+				'Als sich in der Hessischen Umgebung kein Studium fand, was diese Eigenschaften vereint, beschloss ich zunächst den Naturwissenschaften nach zu gehen, da man privat oder nach dem Abschluss immer noch kreativ aktiv werden kann – dachte ich zumindest!',
+				'Durch meinen Freund bin ich nach meinem Abitur nach Stuttgart gezogen. Dort habe ich auch mein Traumstudium gefunden, welches meine persönlichen Interessen vereint.',
+				'Im Produktdesign lege ich Schwerpunkte auf den Modellbau, die Ergonomie, die Materialwissenschaften und Werkstofftechniken. Auf diese Bereiche möchte ich mich jedoch nicht beschränken, da man nie weiß was einen sonst noch erwartet.',
 				'In meiner Freizeit bin ich leidenschaftliche Pflanzenhüterin und immer für einen Grillabend in der Natur zu haben. In der verbleibenden Zeit lebe ich mich gerne mit kreativen Heimwerker-Projekten aus.',
 			],
 		},
@@ -29,7 +32,10 @@ const data = {
 			headline: 'Hello,<br>I am Heidi Meyer',
 			text: [
 				'and I am a product design student at the HdM in Stuttgart, currently in my 4th semester.',
-				'Meanwhile I am working for DEKRA as a student employee.',
+				'Design and science have always interested me.',
+				'When there was no study in the Hessian area that combines these characteristics, I first decided to pursue the natural sciences, because you can still be creative, privately or after graduation - at least that is what I thought!',
+				'I moved to Stuttgart through my boyfriend after graduating from high school. It was there that I found my dream course, which unites my personal interests.',
+				'In product design, I focus on model making, ergonomics, materials science and materials technology. However, I do not want to limit myself to these areas, as you never know what else to expect.',
 				'Personally, I am a plant fanatic and always ready for a peaceful evening BBQ in nature. My remaining pass-time is usually spent with creative DIY projects.',
 			],
 		},
