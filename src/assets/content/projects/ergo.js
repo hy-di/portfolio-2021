@@ -34,7 +34,7 @@ export default {
 		description: [{ de: 'Fahrrad Bewegungsanalyse und Sichtkegel', en: 'Bicycle motion analysis and cone of vision'}],
 	}, {
 		src: fahrrad,
-		description: [{ de: 'personalisiertes Fahrradmodell', en: 'personalized bike model'}],
+		description: [{ de: 'Personalisiertes Fahrradmodell', en: 'Personalized bike model'}],
 	}],
 	[{
 		src: diagramm1,

@@ -35,10 +35,10 @@ export default {
 	},
 	imageRows: [[{
 		src: sinkskizze1,
-		description: [{ de: 'erste Wasserhahn-Ideenskizze', en: 'first tap idea sketch'}],
+		description: [{ de: 'Erste Wasserhahn-Ideenskizze', en: 'First tap idea sketch'}],
 	}, {
 		src: showerskizze1,
-		description: [{ de: 'erste Duscharmatur-Ideenskizzen', en: 'first shower faucet idea sketches'}],
+		description: [{ de: 'Erste Duscharmatur-Ideenskizzen', en: 'First shower faucet idea sketches'}],
 	}],
 	[{
 		src: sinkskizze2,

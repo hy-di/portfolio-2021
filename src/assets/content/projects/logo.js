@@ -24,7 +24,7 @@ export default {
 	},
 	imageRows: [[{
 		src: kaeferreal,
-		description: [{ de: 'realistischer Käfer und Abstraktion', en: 'realistic beetle and abstraction'}],
+		description: [{ de: 'Realistischer Käfer und Abstraktion', en: 'Realistic beetle and abstraction'}],
 	}],
 	[{
 		src: simpleikons,

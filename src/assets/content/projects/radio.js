@@ -63,20 +63,20 @@ export default {
 	}],
 	[{
 		src: werkstatt1,
-		description: [{ de: 'Modell-Grundkörper aus Ureol fräsen', en: 'milling the basic body of the Ureol model'}],
+		description: [{ de: 'Modell-Grundkörper aus Ureol fräsen', en: 'Milling the basic body of the Ureol model'}],
 	}, {
 		src: werkstatt2,
-		description: [{ de: 'Zwischenstand des Grundkörpers', en: 'intermediate state of the basic body'}],
+		description: [{ de: 'Zwischenstand des Grundkörpers', en: 'Intermediate state of the basic body'}],
 	}],
 	[{
 		src: werkstatt3,
-		description: [{ de: 'weitere Bearbeitung – Feilen und Schleifen', en: 'further processing – filing and grinding'}],
+		description: [{ de: 'Weitere Bearbeitung – Feilen und Schleifen', en: 'Further processing – filing and grinding'}],
 	}, {
 		src: werkstatt4,
-		description: [{ de: 'spachteln der Grundkörpers', en: 'filling the base of the body'}],
+		description: [{ de: 'Spachteln der Grundkörpers', en: 'Filling the base of the body'}],
 	}, {
 		src: werkstatt5,
-		description: [{ de: 'Zwischenstand des Radioweckers (Fokus Beleuchtung)', en: 'intermediate status of the radio alarm clock (focus lighting)'}],
+		description: [{ de: 'Zwischenstand des Radioweckers (Fokus Beleuchtung)', en: 'Intermediate status of the radio alarm clock (focus lighting)'}],
 	}],
 	[{
 		src: radiomodel1,
