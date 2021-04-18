@@ -36,7 +36,7 @@ export default {
 	[{
 		src: imago,
 		description: [{ de: 'Käfer basiertes Logo', en: 'Beetle based logo'}],
-	}], 
+	}],
 	[{
 		src: hm1,
 		description: [{ de: 'Monogramm Ideen', en: 'Monogram ideas'}],
