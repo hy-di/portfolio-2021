@@ -34,7 +34,7 @@ export default {
 
 	imageRows: [[{
 		src: knetei1,
-		description: [{ de: 'Lehrmodell – Anwendung', en: 'Mockup – application'}],
+		description: [{ de: 'Lehrmodell – Anwendung', en: 'Mockup – using the product'}],
 	}, {
 		src: knetei2,
 		description: [{ de: 'Lehrmodell – Draufsicht', en: 'Mockup – top view'}],
@@ -45,7 +45,7 @@ export default {
 	}],
 	[{
 		src: uveiversion11,
-		description: [{ de: 'erster CAD Entwurf des Handtaschen-Desinfektionsspenders (Orb)', en: 'First CAD design of the handbag disinfectant dispenser (Orb)'}],
+		description: [{ de: 'erster CAD Entwurf des Handtaschen-Desinfektionsspenders (Orb)', en: 'first CAD design of the handbag disinfectant dispenser (Orb)'}],
 	}, {
 		src: uveiversion12,
 		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders', en: 'second CAD design of the handbag disinfectant dispenser'}],
@@ -54,20 +54,20 @@ export default {
 		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders', en: 'second CAD design of the handbag disinfectant dispenser'}],
 	}, {
 		src: uveiversion22,
-		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders – Fokus Riffelung', en: 'second CAD design of the handbag disinfectant dispenser – Focus corrugation'}],
+		description: [{ de: 'zweiter CAD Entwurf des Handtaschen-Desinfektionsspenders – Fokus Riffelung', en: 'second CAD design of the handbag disinfectant dispenser – focus on corrugation'}],
 	}],
 	[{
 		src: uvboxversion1,
-		description: [{ de: 'erster CAD Entwurf des Tragebox-Desinfektionsspenders (Case)', en: 'first CAD draft of the carrying box disinfection dispenser (case)'}],
+		description: [{ de: 'erster CAD Entwurf des Tragebox-Desinfektionsspenders (Case)', en: 'first CAD draft of the carrying-case disinfection dispenser (Case)'}],
 	},{
 		src: uvboxversion21,
-		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders – Fokus langer Tragegurt', en: 'first CAD draft of the carrying box disinfection dispenser – Focus long shoulder strap'}],
+		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders – Fokus langer Tragegurt', en: 'first CAD draft of the carrying-case disinfection dispenser – focus long shoulder strap'}],
 	},{
 		src: uvboxversion22,
-		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders – Gesamtübersicht', en: 'first CAD draft of the carrying box disinfection dispenser – General overview'}],
+		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders – Gesamtübersicht', en: 'first CAD draft of the carrying-case disinfection dispenser – general overview'}],
 	}, {
 		src: uvboxversion23,
-		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders – Fokus Innenleben', en: 'first CAD draft of the carrying box disinfection dispenser – Focus internals'}],
+		description: [{ de: 'zweiter CAD Entwurf des Tragebox-Desinfektionsspenders – Fokus Innenleben', en: 'first CAD draft of the carrying-case disinfection dispenser – focus internals'}],
 	}],
 	[{
 		src: emitposter1,
@@ -75,7 +75,7 @@ export default {
 	}, {
 		src: emitposter2,
 		description: [{ de: 'Produktposter Handtaschen-Desinfektionsspender', en: 'Product poster handbag disinfectant dispenser'}],
-	}], 
+	}],
 	[{
 		src: emitposter3,
 		description: [{ de: 'Produktposter Tragebox-Desinfektionsspender', en: 'Product poster carrying box disinfectant dispenser'}],

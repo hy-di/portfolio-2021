@@ -35,10 +35,10 @@ export default {
 	},
 	imageRows: [[{
 		src: skizzenideen,
-		description: [{ de: 'Radiowecker Entwurfsskizzen', en: 'Clock radio design sketches'}],
+		description: [{ de: 'Radiowecker Entwurfsskizzen', en: 'Radio alarm clock design sketches'}],
 	}, {
 		src: skizzenradio,
-		description: [{ de: 'Radiowecker finale Idee – Skizze', en: 'Clock radio final idea – sketch'}],
+		description: [{ de: 'Radiowecker finale Idee – Skizze', en: 'Radio alarm clock final idea – sketch'}],
 	}],
 	[{
 		src: prototyp3,
@@ -48,7 +48,7 @@ export default {
 		description: [{ de: 'Lehrmodell – Frontansicht', en: 'Mockup – front view'}],
 	}, {
 		src: prototyp2,
-		description: [{ de: 'Lehrmodell – schrägAnsicht', en: 'Mockup – oblique view'}],
+		description: [{ de: 'Lehrmodell – Schrägansicht', en: 'Mockup – oblique view'}],
 	}],
 	[{
 		src: skizzenbedienung,
@@ -59,43 +59,43 @@ export default {
 	}],
 	[{
 		src: tz,
-		description: [{ de: 'Modelbauzeichnung', en: 'Model drawing'}],
+		description: [{ de: 'Modellbauzeichnung', en: 'Model drawing'}],
 	}],
 	[{
 		src: werkstatt1,
-		description: [{ de: 'Model Grundkörper aus Ureol fräsen', en: 'Mill the basic body of the Ureol model'}],
+		description: [{ de: 'Modell-Grundkörper aus Ureol fräsen', en: 'milling the basic body of the Ureol model'}],
 	}, {
 		src: werkstatt2,
-		description: [{ de: 'Zwischenstand des Grundkörpers', en: 'Intermediate state of the basic body'}],
+		description: [{ de: 'Zwischenstand des Grundkörpers', en: 'intermediate state of the basic body'}],
 	}],
 	[{
 		src: werkstatt3,
 		description: [{ de: 'weitere Bearbeitung – Feilen und Schleifen', en: 'further processing – filing and grinding'}],
 	}, {
 		src: werkstatt4,
-		description: [{ de: 'spachteln der Grundkörpers', en: 'fill the base body'}],
+		description: [{ de: 'spachteln der Grundkörpers', en: 'filling the base of the body'}],
 	}, {
 		src: werkstatt5,
-		description: [{ de: 'Zwischenstand des Radioweckers (Fokus Beleuchtung)', en: 'Intermediate status of the radio alarm clock (focus lighting)'}],
+		description: [{ de: 'Zwischenstand des Radioweckers (Fokus Beleuchtung)', en: 'intermediate status of the radio alarm clock (focus lighting)'}],
 	}],
 	[{
 		src: radiomodel1,
-		description: [{ de: 'Fotomodel', en: 'Photo model'}],
+		description: [{ de: 'Fotomodell', en: 'Photo model'}],
 	}, {
 		src: radiomodel2,
-		description: [{ de: 'Fotomodel – Fokus Rückseite und USB-C Anschluss', en: 'Photo model – focus on the back and USB-C connection'}],
+		description: [{ de: 'Fotomodell – Fokus Rückseite und USB-C Anschluss', en: 'Photo model – focus on the back and USB-C connection'}],
 	}],
 	[{
 		src: radiomodel3,
-		description: [{ de: 'Fotomodel – Fokus Lautsprecher und Display', en: 'Photo model – focus speakers and display'}],
+		description: [{ de: 'Fotomodell – Fokus Lautsprecher und Display', en: 'Photo model – focus on speakers and display'}],
 	}, {
 		src: radiomodel4,
-		description: [{ de: 'Fotomodel', en: 'Photo model'}],
+		description: [{ de: 'Fotomodell', en: 'Photo model'}],
 	}, {
 		src: radiomodel5,
-		description: [{ de: 'Fotomodel Underseite', en: 'Photo model underside'}],
+		description: [{ de: 'Fotomodell Underseite', en: 'Photo model bottom'}],
 	}, {
 		src: radiomodel6,
-		description: [{ de: 'Fotomodel Oberseite', en: 'Photo model top'}],
+		description: [{ de: 'Fotomodell Oberseite', en: 'Photo model top'}],
 	}]],
 };

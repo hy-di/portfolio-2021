@@ -38,19 +38,19 @@ export default {
 	}],
 	[{
 		src: diagramm1,
-		description: [{ de: 'Zähneputzen Ablaufanalyse', en: 'Brushing your teeth process analysis'}],
+		description: [{ de: 'Zähneputzen: Ablaufanalyse', en: 'Teeth brushing: Process analysis'}],
 	}, {
 		src: diagramm2,
-		description: [{ de: 'Zähneputzen Zeit-/ Bewegungsanalyse', en: 'Brushing teeth time / movement analysis'}],
+		description: [{ de: 'Zähneputzen: Zeit-/ Bewegungsanalyse', en: 'Teeth brushing: Time / movement analysis'}],
 	}],
 	[{
 		src: zaehneputzenlinks,
-		description: [{ de: 'Zähne putzen Haltungsanalyse – linke Zahnbereich', en: 'Brush your teeth Posture analysis – left tooth area'}],
+		description: [{ de: 'Zähne putzen: Haltungsanalyse – linke Zahnbereich', en: 'Teeth brushing: Posture analysis – left tooth area'}],
 	},{
 		src: zaehneputzenvorne,
-		description: [{ de: 'Zähne putzen Haltungsanalyse – vordere Zahnbereich', en: 'Brush your teeth Posture analysis – front tooth area'}],
+		description: [{ de: 'Zähne putzen: Haltungsanalyse – vordere Zahnbereich', en: 'Teeth brushing: Posture analysis – front tooth area'}],
 	},{
 		src: zaehneputzenrechts,
-		description: [{ de: 'Zähne putzen Haltungsanalyse – rechte Zahnbereich', en: 'Brush your teeth Posture analysis – right tooth area'}],
+		description: [{ de: 'Zähne putzen: Haltungsanalyse – rechte Zahnbereich', en: 'Teeth brushing: Posture analysis – right tooth area'}],
 	}]],
 };

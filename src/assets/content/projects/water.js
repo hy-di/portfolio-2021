@@ -35,17 +35,17 @@ export default {
 	},
 	imageRows: [[{
 		src: sinkskizze1,
-		description: [{ de: 'erste Wasserhahn Ideeskizze', en: 'first tap idea sketch'}],
+		description: [{ de: 'erste Wasserhahn-Ideenskizze', en: 'first tap idea sketch'}],
 	}, {
 		src: showerskizze1,
-		description: [{ de: 'erste Duscharmatur Ideenskizzen', en: 'first shower faucet idea sketches'}],
+		description: [{ de: 'erste Duscharmatur-Ideenskizzen', en: 'first shower faucet idea sketches'}],
 	}],
 	[{
 		src: sinkskizze2,
 		description: [{ de: 'Wasserhahn Skizze', en: 'Tap sketch'}],
 	},{
 		src: showerskizze2,
-		description: [{ de: 'Duschkopf Skizze', en: 'Shower head sketch'}],
+		description: [{ de: 'Duschkopf Skizze', en: 'Showerhead sketch'}],
 	}],
 	[{
 		src: tapmodel1,
@@ -59,17 +59,17 @@ export default {
 	}],
 	[{
 		src: showerheadmodel1,
-		description: [{ de: 'Duschkopf Knetmodell – leichte Draufsicht', en: 'Shower head modeling clay – slight top view'}],
+		description: [{ de: 'Duschkopf Knetmodell – leichte Draufsicht', en: 'Showerhead modeling clay – slight top view'}],
 	},{
 		src: showerheadmodel2,
-		description: [{ de: 'Duschkopf Knetmodell – leichte Frontansicht', en: 'Shower head modeling clay – slight front view'}],
+		description: [{ de: 'Duschkopf Knetmodell – leichte Frontansicht', en: 'Showerhead modeling clay – slight front view'}],
 	},{
 		src: showerheadmodel3,
-		description: [{ de: 'Duschkopf Knetmodell – leichte Seitenansicht', en: 'Shower head modeling clay – slight side view'}],
+		description: [{ de: 'Duschkopf Knetmodell – leichte Seitenansicht', en: 'Showerhead modeling clay – slight side view'}],
 	}],
 	[{
 		src: sinkskizze3,
-		description: [{ de: 'Waschbeckenraum Skizze', en: 'Wash basin room sketch'}],
+		description: [{ de: 'Waschbeckenraum Skizze', en: 'Sink room sketch'}],
 	}, {
 		src: showerskizze3,
 		description: [{ de: 'Duschraum Skizze', en: 'Shower room sketch'}],
@@ -79,7 +79,7 @@ export default {
 		description: [{ de: 'Waschbecken Konzeptvisualisierung', en: 'Sink concept visualization'}],
 	}, {
 		src: sinkroom,
-		description: [{ de: 'CAD Waschbeckenraum', en: 'CAD sink space'}],
+		description: [{ de: 'CAD Waschbeckenraum', en: 'CAD sink room'}],
 	}],
 	[{
 		src: showerconzept,

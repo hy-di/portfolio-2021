@@ -21,8 +21,8 @@ const data = {
 			text: [
 				'und ich bin Produktdesign Studentin an der HdM Stuttgart im 4. Semester.',
 				'Gestaltung und Naturwissenschaften haben mich schon immer interessiert.',
-				'Als sich in der Hessischen Umgebung kein Studium fand, was diese Eigenschaften vereint, beschloss ich zunächst den Naturwissenschaften nach zu gehen, da man privat oder nach dem Abschluss immer noch kreativ aktiv werden kann – dachte ich zumindest!',
-				'Durch meinen Freund bin ich nach meinem Abitur nach Stuttgart gezogen. Dort habe ich auch mein Traumstudium gefunden, welches meine persönlichen Interessen vereint.',
+				'Als sich in der hessischen Umgebung kein Studium fand, was diese Eigenschaften vereint, beschloss ich zunächst den Naturwissenschaften nachzugehen, da man privat oder nach dem Abschluss immer noch kreativ aktiv werden kann – dachte ich zumindest!',
+				'Durch meinen Freund bin ich nach meinem Abitur nach Stuttgart gezogen. Dort habe ich auch mein Traumstudium gefunden, welches meine persönlichen Interessen vereint:',
 				'Im Produktdesign lege ich Schwerpunkte auf den Modellbau, die Ergonomie, die Materialwissenschaften und Werkstofftechniken. Auf diese Bereiche möchte ich mich jedoch nicht beschränken, da man nie weiß was einen sonst noch erwartet.',
 				'In meiner Freizeit bin ich leidenschaftliche Pflanzenhüterin und immer für einen Grillabend in der Natur zu haben. In der verbleibenden Zeit lebe ich mich gerne mit kreativen Heimwerker-Projekten aus.',
 			],
@@ -33,9 +33,9 @@ const data = {
 			text: [
 				'and I am a product design student at the HdM in Stuttgart, currently in my 4th semester.',
 				'Design and science have always interested me.',
-				'When there was no study in the Hessian area that combines these characteristics, I first decided to pursue the natural sciences, because you can still be creative, privately or after graduation - at least that is what I thought!',
-				'I moved to Stuttgart through my boyfriend after graduating from high school. It was there that I found my dream course, which unites my personal interests.',
-				'In product design, I focus on model making, ergonomics, materials science and materials technology. However, I do not want to limit myself to these areas, as you never know what else to expect.',
+				'When there was no study in the hessian area that combines these characteristics, I first decided to pursue natural sciences, because one can still be creative, privately or after graduation – at least that is what I thought!',
+				'I moved to Stuttgart with my boyfriend after graduating from school. It was there that I found my dream course of studies, which unites my personal interests:',
+				'In product design, I focus on model making, ergonomics, material science and material technology. However, I do not want to limit myself to these areas, as you never know what else you can expect.',
 				'Personally, I am a plant fanatic and always ready for a peaceful evening BBQ in nature. My remaining pass-time is usually spent with creative DIY projects.',
 			],
 		},
