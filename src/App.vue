@@ -75,7 +75,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-#app {
+body {
 	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -118,6 +118,15 @@ html {
 	h3 {
 		font-size: calc(24em / 16);
 		margin-top: 0;
+	}
+
+	a {
+		color: rgb(var(--col-hover));
+		text-decoration: none;
+
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
 	}
 
 	svg {

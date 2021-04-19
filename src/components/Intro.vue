@@ -6,15 +6,13 @@
 				<img class="hover-img" :src="imageHover">
 			</div>
 			<div>
-				<!-- eslint-disable-next-line vue/no-v-html -->
 				<h1 v-html="headline" />
 				<p
 					v-for="(paragraph, i) in text"
 					:key="i"
 					class="description"
-				>
-					{{ paragraph }}
-				</p>
+					v-html="paragraph"
+				/>
 			</div>
 		</div>
 		<div class="top-leaves" />
@@ -163,6 +161,7 @@ section {
 }
 
 .description {
-	font-size: calc(24em / 16);
+	font-size: calc(20em / 16);
+	line-height: 1.4;
 }
 </style>
