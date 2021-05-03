@@ -47,6 +47,16 @@ const data = {
 		],
 	},
 	sections: [impres],
+	credits: {
+		de: [
+			'🎨 Designt von Heidi Meyer',
+			'🛠️ Entwickelt von <a target="blank" rel="noopener" href="https://github.com/Muhlex">Felix Bastian</a>',
+		],
+		en: [
+			'🎨 Designed by Heidi Meyer',
+			'🛠️ Built by <a target="blank" rel="noopener" href="https://github.com/Muhlex">Felix Bastian</a>',
+		],
+	},
 };
 
 const _lang = ref((() => {

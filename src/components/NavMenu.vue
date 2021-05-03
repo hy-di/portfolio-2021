@@ -47,6 +47,9 @@
 					</li>
 				</ul>
 			</nav>
+			<div class="bottom-row">
+				<p v-for="paragraph in content.credits" :key="paragraph" v-html="paragraph" />
+			</div>
 		</div>
 	</transition>
 </template>
@@ -107,11 +110,23 @@ export default {
 	padding: 16px;
 	padding-left: 2em;
 	background-color: rgb(var(--col-background));
+	display: flex;
+	flex-direction: column;
 	z-index: 30;
 
 	.top-row {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.bottom-row {
+		margin-top: auto;
+		text-align: center;
+
+		p {
+			margin-top: 0.5em;
+			margin-bottom: 0;
+		}
 	}
 
 	.close-button {
