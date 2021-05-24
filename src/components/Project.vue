@@ -44,7 +44,7 @@ export default {
 	margin: 128px 0 0;
 	+ section { margin: calc(256px + 64px) 0 calc(128px + 32px); }
 
-	border: solid transparent;
+	border: solid;
 	border-image-source: url('@/assets/img/bg.png');
 	border-image-slice: 128 1536;
 	border-image-outset: calc(128px + 32px) calc(1536px + 32px);

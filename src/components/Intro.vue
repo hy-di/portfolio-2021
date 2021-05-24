@@ -73,7 +73,7 @@ section {
 	}
 
 	&, .top-leaves {
-		border: solid transparent;
+		border: solid;
 		border-image-source: url('@/assets/img/bg-intro.png');
 		border-image-slice: 2096 1536 384;
 		border-image-width: 0 1536px 384px;
